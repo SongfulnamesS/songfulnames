@@ -1,1 +1,446 @@
-function removeHtmlTag(t,e){for(var a=t.split("<"),r=0;r<a.length;r++)-1!=a[r].indexOf(">")&&(a[r]=a[r].substring(a[r].indexOf(">")+1,a[r].length));return a=a.join(""),a=a.substring(0,e-1)}function topanime(t){var e;e=0,j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var r=0;maxpost>r;r++){var i,n=t.feed.entry[r],l=n.title.$t;if(e+=1,r==t.feed.entry.length)break;for(var o=0;o<n.link.length;o++)if("alternate"==n.link[o].rel){i=n.link[o].href;break}if("content"in n)var m=n.content.$t;else if("summary"in n)var m=n.summary.$t;else var m="";postdate=n.published.$t,j>imgr.length-1&&(j=0),img[r]=imgr[j],s=m,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[r]=d);for(var g=[1,2,3,4,5,6,7,8,9,10,11,12],f=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],p=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),h=(postdate.split("-")[0],0);h<g.length;h++)if(parseInt(p)==g[h]){p=f[h];break}var v='<div class="loltopanime"><div class="loltopimg"><a title="'+l+'" href="'+i+'"><img src="'+img[r]+'" width="166" border="0" alt="'+l+'"/></a></div><div class="topanimedt"><span>'+e+' </span><a href="'+i+'">'+l+"</a></div></div>";document.write(v),j++}}function capanime(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var e=0;maxpost>e;e++){var r,i=t.feed.entry[e],n=i.title.$t;if(e==t.feed.entry.length)break;for(var l=0;l<i.link.length;l++)if("alternate"==i.link[l].rel){r=i.link[l].href;break}if("content"in i)var o=i.content.$t;else if("summary"in i)var o=i.summary.$t;else var o="";postdate=i.published.$t,j>imgr.length-1&&(j=0),img[e]=imgr[j],s=o,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[e]=d);for(var m=[1,2,3,4,5,6,7,8,9,10,11,12],g=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],f=postdate.split("-")[2].substring(0,2),p=postdate.split("-")[1],h=postdate.split("-")[0],v=0;v<m.length;v++)if(parseInt(p)==m[v]){p=g[v];break}var u=f+" "+p+" "+h,y='<li><a class="rated_avatar" title="'+n+'" href="'+r+'"><img src="'+img[e]+'" width="47" height="47" border="0" alt="'+n+'"/></a><a class="rated_title" href="'+r+'">'+n+'</a><div class="rated_stars"><span>'+u+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Jkanime" alt="Progamacion Jkanime"></div><a class="rated_more" href='+r+'><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';document.write(y),j++}}function anime(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var e=0;maxpost>e;e++){var r,i=t.feed.entry[e],n=i.title.$t;if(e==t.feed.entry.length)break;for(var l=0;l<i.link.length;l++)if("alternate"==i.link[l].rel){r=i.link[l].href;break}if("content"in i)var o=i.content.$t;else if("summary"in i)var o=i.summary.$t;else var o="";postdate=i.published.$t,j>imgr.length-1&&(j=0),img[e]=imgr[j],s=o,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[e]=d);for(var m=[1,2,3,4,5,6,7,8,9,10,11,12],g=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],f=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),p=(postdate.split("-")[0],0);p<m.length;p++)if(parseInt(f)==m[p]){f=g[p];break}var h='<div class="home_portada_bg"><a class="big_portada_title" href="'+r+'">'+n+'</a><a class="portada_big" href="'+r+'"><img src="'+img[e]+'" width="151" height="250" alt="'+n+'"/></a></div>';document.write(h),j++}}function showrecentposts1(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var e=0;maxpost>e;e++){var r,i,n=t.feed.entry[e],l=n.title.$t;if(e==t.feed.entry.length)break;for(var o=0;o<n.link.length;o++)if("alternate"==n.link[o].rel){i=n.link[o].href;break}for(var o=0;o<n.link.length;o++)if("replies"==n.link[o].rel&&"text/html"==n.link[o].type){r=n.link[o].title.split(" ")[0];break}if("content"in n)var m=n.content.$t;else if("summary"in n)var m=n.summary.$t;else var m="";postdate=n.published.$t,j>imgr.length-1&&(j=0),img[e]=imgr[j],s=m,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[e]=d);for(var g=[1,2,3,4,5,6,7,8,9,10,11,12],f=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],p=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),h=(postdate.split("-")[0],0);h<g.length;h++)if(parseInt(p)==g[h]){p=f[h];break}r='<a href="'+i+'">'+r+" comments</a>";var v='<div class="lolanime"><div class="lolimg"><a title="'+l+'" href="'+i+'"><img src="'+img[e]+'" width="166" border="0" alt="'+l+'"/></a></div><div class="animedt"><a href="'+i+'">'+l+'</a><span class="veranime"><a title="Ver '+l+'" href="'+i+'">Ver Ova</a></span></div></div>';document.write(v),j++}}function ultimosanime(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var e=0;maxpost>e;e++){var r,i=t.feed.entry[e],n=i.title.$t;if(e==t.feed.entry.length)break;for(var l=0;l<i.link.length;l++)if("alternate"==i.link[l].rel){r=i.link[l].href;break}if("content"in i)var o=i.content.$t;else if("summary"in i)var o=i.summary.$t;else var o="";postdate=i.published.$t,j>imgr.length-1&&(j=0),img[e]=imgr[j],s=o,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[e]=d);var m='<li><a href="'+r+'">'+n+"</a></li>";document.write(m),j++}}function aleatorio(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;for(var e=0;maxpost>e;e++){var r,i=t.feed.entry[e],n=i.title.$t;if(e==t.feed.entry.length)break;for(var l=0;l<i.link.length;l++)if("alternate"==i.link[l].rel){r=i.link[l].href;break}if("content"in i)var o=i.content.$t;else if("summary"in i)var o=i.summary.$t;else var o="";postdate=i.published.$t,j>imgr.length-1&&(j=0),img[e]=imgr[j],s=o,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[e]=d);for(var m=[1,2,3,4,5,6,7,8,9,10,11,12],g=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],f=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),p=(postdate.split("-")[0],0);p<m.length;p++)if(parseInt(f)==m[p]){f=g[p];break}var h='<div class="home_portada_bg" style="margin: 0 0 4px 17px;padding: 3px;"><a class="big_portada_title" href="'+r+'">'+n+'</a><a class="portada_big" href="'+r+'"><img src="'+img[e]+'" width="151" height="250" alt="'+n+'"/></a></div>';document.write(h),j++}}function slider(t){document.write("<div class='nivoSlider' id='slider'>"),j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;var e;e=0;for(var r=0;maxpost>r;r++){var i,n=t.feed.entry[r],l=n.title.$t;if(e++,r==t.feed.entry.length)break;for(var o=0;o<n.link.length;o++)if("alternate"==n.link[o].rel){i=n.link[o].href;break}if("content"in n)var m=n.content.$t;else if("summary"in n)var m=n.summary.$t;else var m="";postdate=n.published.$t,j>imgr.length-1&&(j=0),img[r]=imgr[j],s=m,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[r]=d);for(var g=[1,2,3,4,5,6,7,8,9,10,11,12],f=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],p=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),h=(postdate.split("-")[0],0);h<g.length;h++)if(parseInt(p)==g[h]){p=f[h];break}var v='<a href="'+i+'"><img src="'+img[r]+'" width="480" height="246" alt="'+l+'" title="#htmlcaption-'+e+'"/></a>';document.write(v),j++}document.write("</div>")}function tituloslider(t){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,maxpost=numposts2<=t.feed.entry.length?numposts2:t.feed.entry.length;var e;e=0;for(var r=0;maxpost>r;r++){var i,n=t.feed.entry[r],l=n.title.$t;if(e++,r==t.feed.entry.length)break;for(var o=0;o<n.link.length;o++)if("alternate"==n.link[o].rel){i=n.link[o].href;break}if("content"in n)var m=n.content.$t;else if("summary"in n)var m=n.summary.$t;else var m="";postdate=n.published.$t,j>imgr.length-1&&(j=0),img[r]=imgr[j],s=m,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[r]=d);for(var g=[1,2,3,4,5,6,7,8,9,10,11,12],f=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],p=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),h=(postdate.split("-")[0],0);h<g.length;h++)if(parseInt(p)==g[h]){p=f[h];break}var v='<div class="nivo-html-caption" id="htmlcaption-'+e+'"><a href="'+i+'"><strong style="font-size:18px;">'+l+"</strong></a></div>";document.write(v),j++}}imgr=new Array,imgr[0]="http://1.bp.blogspot.com/-QjSndGbF0No/T-Nt3HgKsDI/AAAAAAAAG9o/cN6_Oy306rc/s1600/no-video.gif",showRandomImg=!0,aBold=!0,summaryPost=200,summaryTitle=20,numposts2=99999;
+imgr = new Array();
+imgr[0] = "http://1.bp.blogspot.com/-QjSndGbF0No/T-Nt3HgKsDI/AAAAAAAAG9o/cN6_Oy306rc/s1600/no-video.gif";
+showRandomImg = true;
+aBold = true;
+summaryPost = 200;
+summaryTitle = 20;
+numposts2 = 99999;
+
+function removeHtmlTag(strx, chop) {
+    var s = strx.split("<");
+    for (var i = 0; i < s.length; i++) {
+        if (s[i].indexOf(">") != -1) {
+            s[i] = s[i].substring(s[i].indexOf(">") + 1, s[i].length)
+        }
+    }
+    s = s.join("");
+    s = s.substring(0, chop - 1);
+    return s
+}
+function topanime(json) {
+	var numerar;
+	numerar = 0;
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+      numerar = numerar +1;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<div class="loltopanime"><div class="loltopimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="topanimedt"><span>'+numerar+' </span><a href="' + posturl + '">' + posttitle + '</a></div></div>';
+        document.write(trtd);
+        j++
+    }
+}
+
+function capanime(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Jkanime" alt="Progamacion Jkanime"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
+        document.write(trtd);
+        j++
+    }
+}
+function anime(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<div class="home_portada_bg"><a class="big_portada_title" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+        document.write(trtd);
+        j++
+    }
+}
+
+function showrecentposts1(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'replies' && entry.link[k].type == 'text/html') {
+                pcm = entry.link[k].title.split(" ")[0];
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+        pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
+      var trtd = '<div class="lolanime"><div class="lolimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="animedt"><a href="' + posturl + '">' + posttitle + '</a><span class="veranime"><a title="Ver '+ posttitle +'" href="' + posturl + '">Ver Ova</a></span></div></div>';
+        document.write(trtd);
+        j++
+    }
+}
+
+function ultimosanime(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+       
+      var trtd = '<li><a href="' + posturl + '">' + posttitle + '</a></li>';
+        document.write(trtd);
+        j++
+    }
+}
+
+function aleatorio(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+
+
+
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 17px;padding: 3px;"><a class="big_portada_title" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+
+        document.write(trtd);
+        j++
+    }
+}
+function slider(json) {
+document.write("<div class='nivoSlider' id='slider'>");
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+
+
+var numero;
+numero = 0;
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+		numero++;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="480" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
+
+        document.write(trtd);
+        j++
+    }document.write("</div>");
+}
+function tituloslider(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+
+var numero;
+numero = 0;
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+		numero++;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="font-size:18px;">' + posttitle + '</strong></a></div>';
+
+      document.write(trtd);
+        j++
+    }
+}
