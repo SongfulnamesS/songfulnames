@@ -4,7 +4,7 @@ showRandomImg = true;
 aBold = true;
 summaryPost = 140;
 summaryTitle = 25;
-label1 = "Accion";
+label1 = "Eroticas";
 numposts1 = 40;
 
 function removeHtmlTag(strx, chop) {
