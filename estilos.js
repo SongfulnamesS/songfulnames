@@ -495,7 +495,7 @@ m = month2[u2] ; break;
 }
 
 var daystr = day+ ' ' + m + ' ' + y ;
-var trtd = '<li class="car"><div class="thumb"><a href="'+posturl+'"><img width="170" height="215" class="alignnone" src="'+img[i]+'"/></a></div><p><a class="slider_title" href="'+posturl+'">'+posttitle+'</a></p></li>';
+var trtd = '<li class="car"><div class="thumb"><a href="'+posturl+'"><img width="110" height="120" class="alignnone" src="'+img[i]+'"/></a></div><p><a class="slider_title" href="'+posturl+'">'+posttitle+'</a></p></li>';
 
 document.write(trtd);
 j++;
