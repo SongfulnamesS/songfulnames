@@ -502,3 +502,62 @@ j++;
 }
 document.write('</ul>');
 }
+
+function thumbnails(url,title,image,size){
+var item=image;
+var salida ='<a class="tooltip" href="'+url+'" title="'+title+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'" title="'+title+'" alt="'+title+'"/></a>';
+if(item!="") return salida; else return "";
+}
+//
+onload=function() {
+var plmain = document.getElementById('section').offsetHeight;
+var plsidebar = document.getElementById('aside').offsetHeight;
+if(plsidebar>plmain) plmain=plsidebar;
+document.getElementById('section').style.height = document.getElementById('aside').style.height = plmain+ 'px';
+}
+//
+function eliminattags(cual,longitud){
+  var resumen = cual.split("<");
+  for(var i=0;i<resumen.length;i++){
+    if(resumen[i].indexOf(">")!=-1){
+      resumen[i] = resumen[i].substring(resumen[i].indexOf(">")+1,resumen[i].length);
+    }
+  }
+  resumen =  resumen.join("");
+  resumen = resumen.substring(0,longitud-1);
+  return resumen;
+}
+function estrenos(json) {
+  var numposts = 999;
+  var imagenpodefecto = "URL_imagen";
+  var lenresumen = 100;
+  var entry, posttitle, posturl, postimg, postcontent, salida;
+  for (var i = 0; i < numposts; i++) {
+    entry = json.feed.entry[i];
+    posttitle = entry.title.$t;
+    if (i == json.feed.entry.length) { break; }
+    for (var k = 0; k < entry.link.length; k++) {
+      if (entry.link[k].rel == 'alternate') {
+        posturl = entry.link[k].href;
+        break;
+      }
+    }
+    postcontent = "";
+    if ("content" in entry) {
+      postcontent = entry.content.$t;
+    } else if ("summary" in entry) {
+      postcontent = entry.summary.$t;
+    }
+    postcontent = eliminattags(postcontent,lenresumen);
+    if ("media$thumbnail" in entry) {
+      postimg = entry.media$thumbnail.url;
+      postimg = postimg.replace('s72-c','s200');
+    } else {
+      postimg = imagenpodefecto;
+    }
+      salida = "<div class='item-estrenos'>";
+    salida += "<a class='tooltip' href='" + posturl + "' title='" + posttitle + "'><img src='" + postimg + "' alt='" + posttitle + "' title='" + posttitle + "'/></a>";
+      salida += "</div>";
+      document.write(salida);
+  }
+}
