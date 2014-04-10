@@ -5,7 +5,7 @@ aBold = true;
 summaryPost = 140;
 summaryTitle = 25;
 label1 = "Eroticas";
-numposts1 = 40;
+numposts1 = 50;
 
 function removeHtmlTag(strx, chop) {
     var s = strx.split("<");
