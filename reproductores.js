@@ -1,1 +1,199 @@
-function shared(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/shared?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function amz(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/amz?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function bitcasa(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/bitcasa?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function played(e){var t='<IFRAME SRC="http://played.to/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function videomega(e){var t='<iframe width="604" height="340" scrolling="no" frameborder="0" src="http://videomega.tv/iframe.php?ref='+e+'&width=604&height=340">';t+="</iframe>",document.write(t)}function tumi(e){var t='<IFRAME SRC="http://tumi.tv/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function powvideo(e){var t='<IFRAME SRC="http://powvideo.net/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function zippyshar(e){var t='<iframe style="overflow: hidden;border:0;width:604px;height:340px" src="http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url='+e+'&amp;width=604&amp;height=330&amp;tiempo=10&amp;width=550&amp;height=340" scrolling="no"></iframe>';document.write(t)}function picasa(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/picasa?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function zippyshare(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/zipy?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function twitter(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/twi?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function videobam(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/bam?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function sockshare(e){var t='<iframe src="http://www.sockshare.com/embed/'+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function putlocker(e){var t='<iframe src="http://www.putlocker.com/embed/'+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function novamov(e){var t='<iframe title="novamov video player" width="604" height="340" src="http://embed.novamov.com/embed.php?width=604&amp;height=340&amp;v='+e+'&amp;px=1" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function nowvideo(e){var t='<iframe src="http://embed.nowvideo.eu/embed.php?v='+e+'&width=604&height=340" frameborder="0" scrolling="no" allowtransparency="true" width="604" height="340" style="margin:0px;"></iframe>';document.write(t)}function movzap(e){var t='<iframe title="MovZAP Video Player" width="604" height="340" scrolling="no" frameborder="0" src="http://movzap.com/embed/'+e+'&width=604&height=350"></iframe>';document.write(t)}function allmyvideos(e){var t='<iframe src="http://allmyvideos.net/embed-'+e+'-604x340.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" width="604" height="340"></iframe>';document.write(t)}function videomega(e){var t='<iframe width="604" height="340" scrolling="no" frameborder="0" src="http://videomega.tv/iframe.php?ref='+e+'&width=604&height=340">';t+="</iframe>",document.write(t)}function vimple(e){var t='<iframe src="http://player.vimple.ru/iframe/'+e+'" width="604" height="340" frameborder="0" style="z-index:2147483647;"></iframe>';document.write(t)}function ochenta(e){var t='<IFRAME SRC="http://180upload.com/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';t+='<img src="http://4.bp.blogspot.com/-8Q--38Wk57U/UOzeBQv3kWI/AAAAAAAACG0/ATxSN9wX_9Q/s1600/Dibujo.JPG" />',document.write(t)}function vidbull(e){var t='<iframe src="http://vidbull.com/embed-'+e+'-604x340.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" width="604" height="340"></iframe>';document.write(t)}function newtwitvid(e){var t='<object id=\n"player" width="604" height="350" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" >';t+='<param name="movie" value="http://player.longtailvideo.com/player5.9.swf" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<param file="http://llphotos.twitvid.com/twitvidvideosv2/'+e+'.mp4&amp;logo.file=https://lh4.googleusercontent.com/-CYbM8nSJjjU/UMIUUI-w1EI/AAAAAAAACgQ/m5gKm_XjgZw/s1600/logoqestreno.png&amp;image=http://dl.dropbox.com/u/6188287/animefondo.png&amp;skin=&amp;controlbar.position=over" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="350">',t+="</param>",t+="</object>",document.write(t)}function videobb(e){var t='<object id="player" width="604" height="350" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >';t+='<param name="movie" value="http://www.videobb.com/e/'+e+'" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<embed src="http://www.videobb.com/e/'+e+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="350">',t+="</embed>",t+="</object>",document.write(t)}function dailymotion(e){var t='<iframe frameborder="0" width="604" height="340" src="http://www.dailymotion.com/embed/video/'+e+'" allowfullscreen></iframe>';document.write(t)}function verzend(e){var t='<iframe title="verzend video player" width="604" height="340" src="http://verzend.be/'+e+'.html" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vidbull(e){var t='<iframe title="vidbull video player" width="604" height="340" src="http://vidbull.com/'+e+'.html" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function modovideo(e){var t='<iframe src="http://www.modovideo.com/frame.php?v='+e+'" width="604" height="340" frameborder="0">';t+="</iframe>",document.write(t)}function novamov(e){var t='<iframe title="novamov video player" width="604" height="340" src="http://embed.novamov.com/embed.php?width=604&amp;height=340&amp;v='+e+'&amp;px=1" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function veevr(e){var t='<iframe src="http://veevr.com/embed/'+e+'?w=604&amp;h=340" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe>",document.write(t)}function nowvideo(e){var t='<iframe src="http://embed.nowvideo.eu/embed.php?v='+e+'&amp;width=604&amp;height=340" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe>",document.write(t)}function mediafire(e){var t='<center><iframe src="http://veranimesonline.com/frans/stream/mediafire.php?id='+e+'" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe></center>",document.write(t)}function jokeroo(e){var t='<object id="player" width="604" height="340" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >';t+='<param name="movie" value="http://www.jokeroo.com/bin/player.swf?'+e+'" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<embed src="http://www.jokeroo.com/bin/player.swf?'+e+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="340">',t+="</embed>",t+="</object>",document.write(t)}function moevideo(e){var t='<iframe width="604" height="340" src="http://moevideo.net/framevideo/'+e+'?width=604&height=340"  frameborder="0" allowfullscreen ></iframe>';document.write(t)}function vk(e){var t='<iframe src="http://vk.com/video_ext.php?oid='+e+'" width="604" height="340" frameborder="0"></iframe>';document.write(t)}function allmyvideos(e){var t='<iframe title="vk video player" width="604" height="340" src="http://allmyvideos.net/'+e+'" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function videoweed(e){var t='<iframe title="vk video player" width="604" height="340" src="http://embed.videoweed.es/embed.php?v='+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function movzap(e){var t='<iframe title="movzap video player" width="604" height="340" src="http://movzap.com/embed/'+e+'" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vidxden(e){var t='<iframe title="vidxden video player" width="604" height="340" src="http://www.vidxden.com/'+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function tutvnew(e){var t='<iframe title="tutvnew video player" width="604" height="340" src="http://tu.tv/iframe/'+e+'/" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vreer(e){var t='<iframe title="vreer video player" width="604" height="340" src="http://vreer.com/'+e+'" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function uploadboost(e){var t='<iframe title="uploadboost video player" width="604" height="340" src="http://www.uploadboost.com/'+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function facebook(e){var t='<object id="player" width="604" height="340" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >';t+='<param name="movie" value="http://www.facebook.com/v/'+e+'" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<embed src="http://www.facebook.com/v/'+e+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="340">',t+="</embed>",t+="</object>",document.write(t)}function tutv(e){var t='<iframe width="604" height="340" src="http://tu.tv/iframe/'+e+'/" frameborder="0" scrolling="no"></iframe>';document.write(t)}function rutube(e){var t='<iframe width="604" height="340" src="//rutube.ru/video/embed/'+e+'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>';document.write(t)}function youtube(e){var t='<iframe width="604" height="340" src="//www.youtube.com/embed/'+e+'" frameborder="0" allowfullscreen></iframe>';document.write(t)}function descarga(e,t){document.write("<center><div id='tensei-descarga'><a href='"+e+"' alt='Descargar este capitulo' target='_blank' > </a> <span>"+t+"</span></div></center>")}function otrocb(e,t){document.write("<center><div style='height:41px;margin-left:5px;margin-top:-55px;'><a class='tip' href='"+e+"' style='float: left;' title='Capitulo Anterior'><img src='http://3.bp.blogspot.com/-BabVBo8PBmI/UyzJBKsUPTI/AAAAAAAABvM/DRbp9CxYV-s/s1600/anterior.png' /></a><a class='tip' href='"+t+"' style='float: right;margin-right:11px;' title='Capitulo Siguiente'><img src='http://3.bp.blogspot.com/-mdpsMOMbHAs/UyzJCbLva2I/AAAAAAAABvU/HiRX0pMHt9s/s1600/siguiente.png' /></a></div></center>")}function lista(e){document.write("<a href='"+e+"' id='tensei-lista'>Ver todos los capÃ­tulos</a>")}
+function gamovideo(IDgamovideo) {
+  var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-530x340.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"530\" height=\"340\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function songful(IDsongful) {
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDsongful + "\" width=\"530\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function vidspot(IDvidspot) {
+  var output = "<iframe src=\"http://vidspot.net/embed-" + IDvidspot + ".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=530 height=340>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function mail(IDmail) {
+  var output = "<iframe src='http://api.video.mail.ru/videos/embed/mail/"+IDusuario+"/_myvideo/"+IDmail+".html' width='530' height='340' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function powvideo(IDpowvideo) {
+  var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-530x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
+function gloria(IDgloria) {
+  var output = "<iframe src=\"http://gloria.tv/?embed=frame&amp; media=" + IDgloria + "&amp; width=530&amp; height=340\"width=\"530\"height=\"340\"frameborder=\"0\"scrolling=\"no\"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function films(IDfilms) {
+  var output = "<iframe src=\"http://www.yaske.net/archivos/netu/tv/embed_" + IDfilms + ".html?size=530x340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"530\"height=\"340\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function flashx(IDflashx) {
+  var output = "<iframe width=\"530\"height=\"340\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function tumi(IDtumi) {
+  var output = "<IFRAME SRC=\"http://tumi.tv/embed-" + IDtumi + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
+function xhamster(IDxhamster) {
+  var output = "<iframe width=\"530\"height=\"340\"src=\"http://xhamster.com/xembed.php?video=" + IDxhamster + "\"frameborder=\"0\"scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function videodwn(IDvideodwn) {
+  var output = "<iframe src=\"http://dwn.so/player/embed.php?v=" + IDvideodwn + "&width=530&height=340\"width=\"530\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function xvideos(IDxvideos) {
+  var output = "<iframe src=\"http://flashservice.xvideos.com/embedframe/" + IDxvideos + "\"frameborder=0 width=530 height=340 scrolling=no>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function netu(IDnetu) {
+  var output = "<iframe src=\"http://hqq.tv/player/embed_player.php?vid=" + IDnetu + "&autoplay=no\" height=\"340\" width=\"530\" style=\"z-index:2147483647;\" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder=\"0\" scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function redtube(IDredtube) {
+  var output = "<embed src=\"http://embed.redtube.com/player/?id=" + IDredtube + "&style=redtube\"allowfullscreen=\"true\"AllowScriptAccess=\"always\"flashvars=\"autostart=false\"pluginspage=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\"type=\"application/x-shockwave-flash\"height=\"340\"width=\"530\">";
+  output += "</embed>";
+  document.write (output);
+}
+
+function played(IDplayed) {
+  var output = "<IFRAME SRC=\"http://played.to/embed-" + IDplayed + "-530x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
+function sockshare(IDsockshare) {
+  var output = "<iframe src=\"http://www.sockshare.com/embed/" + IDsockshare + "\"width=\"530\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function putlocker(IDputlocker) {
+  var output = "<iframe src=\"http://www.putlocker.com/embed/" + IDputlocker + "\"width=\"530\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function novamov(IDnovamov) {
+  var output = "<iframe title=\"novamov video player\"width=\"530\"height=\"340\"src=\"http://embed.novamov.com/embed.php?width=530&amp; height=340&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function nowvideo(IDnowvideo) {
+  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=530&amp; height=340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"530\"height=\"340\"scanned=\"yes\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function pornhub(IDpornhub) {
+  var output = "<iframe src=\"http://www.pornhub.com/embed/" + IDpornhub + "\"frameborder=\"0\"width=\"530\"height=\"340\"scrolling=\"no\"><a href=\"http://www.pornhub.com/view_video.php?viewkey=" + IDpornhub + "\">Red Sex</a>brought to you by <a href=\"http://www.pornhub.com/\">PornHub</a>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function allmyvideos(IDallmyvideos) {
+  var output = "<iframe src=\"http://allmyvideos.net/embed-" + IDallmyvideos + "-530x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"530\"height=\"340\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function videomega(IDvideomega) {
+  var output = "<iframe width=\"530\"height=\"340\"scrolling=\"no\"frameborder=\"0\"src=\"http://videomega.tv/iframe.php?ref=" + IDvideomega + "&width=530&height=340\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function vimple(IDvimple) {
+  var output = "<iframe src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"530\" height=\"340\" frameborder=\"0\" style=\"z-index:2147483647;\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function ochenta(IDochenta) {
+  var output = "<IFRAME SRC=\"http://180upload.com/embed-" + IDochenta + "-530x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
+function hardsextube(IDhardsextube) {
+  var output = "<embed src=\"http://www.hardsextube.com/embed/" + IDhardsextube + "\"type=\"application/x-shockwave-flash\"wmode=\"transparent\"AllowScriptAccess=\"always\"allowFullScreen=\"true\"width=\"530\"height=\"340\">";
+  output += "</embed>";
+  document.write (output);
+}
+
+function vidbull(IDvidbull) {
+  var output = "<iframe src=\"http://vidbull.com/embed-" + IDvidbull + "-530x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"530\"height=\"340\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function youtube(IDyoutube) {
+  var output = "<iframe width=\"530\"height=\"340\"src=\"//www.youtube.com/embed/" + IDyoutube + "\"frameborder=\"0\"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function moevideo(IDmoevideo) {
+  var output = "<iframe width=\"530\"height=\"340\"src=\"http://moevideo.net/framevideo/" + IDmoevideo + "?width=530&height=340\"frameborder=\"0\"allowfullscreen >";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function vk(IDvk) {
+  var output = "<iframe title=\"VK video player Online HD\"width=\"530\"height=\"340\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function vidxden(IDvidxden) {
+  var output = "<iframe title=\"vidxden video player\"width=\"530\"height=\"340\"src=\"http://www.vidxden.com/" + IDvidxden + "&amp; width=530&amp; height=340\"frameborder=\"0\"allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function rutube(IDrutube) {
+  var output = "<iframe width=\"530\"height=\"340\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function vidbux(IDvidbux) {
+  var output = "<IFRAME SRC=\"http://www.vidbux.com/embed-" + IDvidbux + "-width-530-height-340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
+function trailer(IDtrailer) {
+  var output = "<div id=\'youtube\'><h20>Trailer de la Pelicula</h20><iframe width=\"290\"height=\"200\"src=\"http://www.youtube.com/embed/" + IDtrailer + "\"frameborder=\"0\"allowfullscreen></iframe>";
+  output += "</div>";
+  document.write (output);
+}
+
+function descarga(link,peso){document.write("<center><div id='tensei-descarga'><a href='"+link +"' alt='Descargar este capitulo' target='_blank' > </a> <span>"+peso+"</span></div></center>")}function otrocb(anterior,siguiente){document.write("<center><div style='height:41px;margin-left:5px;margin-top:-55px;'><a class='tip' href='"+anterior +"' style='float: left;' title='Capitulo Anterior'><img src='http://3.bp.blogspot.com/-BabVBo8PBmI/UyzJBKsUPTI/AAAAAAAABvM/DRbp9CxYV-s/s1600/anterior.png' /></a><a class='tip' href='"+siguiente +"' style='float: right;margin-right:11px;' title='Capitulo Siguiente'><img src='http://3.bp.blogspot.com/-mdpsMOMbHAs/UyzJCbLva2I/AAAAAAAABvU/HiRX0pMHt9s/s1600/siguiente.png' /></a></div></center>")}function lista(link){document.write("<a href='"+link +"' id='tensei-lista'>Ver todos los capítulos</a>")}
