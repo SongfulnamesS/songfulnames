@@ -4,7 +4,7 @@ showRandomImg = true;
 aBold = true;
 summaryPost = 140;
 summaryTitle = 25;
-label1 = "Capitulo";
+
 numposts2 = 99999;
 numposts1 = 40;
 
