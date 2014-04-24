@@ -270,7 +270,7 @@ function ultimosanime(json) {
         d = s.substr(b + 5, c - b - 5);
         if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
        
-      var trtd = '<li><span>'+numerar+' </span><a href="' + posturl + '">' + posttitle + '</a></li>';
+      var trtd = '<li><a href="' + posturl + '">' + posttitle + '</a></li>';
         document.write(trtd);
         j++
     }
