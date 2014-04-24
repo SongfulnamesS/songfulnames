@@ -228,7 +228,7 @@ function showrecentposts1(json) {
         }
         var daystr = day + ' ' + m + ' ' + y;
         pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
-      var trtd = '<div class="lolanime"><div class="lolimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="animedt"><a href="' + posturl + '">' + posttitle + '</a><span class="veranime"><a title="Ver '+ posttitle +'" href="' + posturl + '">Ver Ova</a></span></div></div>';
+      var trtd = '<div class="lolanime"><div class="lolimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="animedt"><a href="' + posturl + '">' + posttitle + '</a><span class="veranime"><a title="Ver '+ posttitle +'" href="' + posturl + '">Ver Doramas</a></span></div></div>';
         document.write(trtd);
         j++
     }
