@@ -360,7 +360,6 @@ function eliminattags(cual,longitud){
   resumen = resumen.substring(0,longitud-1);
   return resumen;
 }
-
 function estrenos(json) {
   var imagenpodefecto = "URL_imagen";
   var lenresumen = 100;
