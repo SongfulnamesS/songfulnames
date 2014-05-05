@@ -18,7 +18,7 @@ function removeHtmlTag(strx, chop) {
     s = s.substring(0, chop - 1);
     return s
 }
-function topanime(json) {
+function peliculas(json) {
 	var numerar;
 	numerar = 0;
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
@@ -73,7 +73,7 @@ function topanime(json) {
     }
 }
 
-function capanime(json) {
+function semanal(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
@@ -176,7 +176,7 @@ function anime(json) {
     }
 }
 
-function showrecentposts1(json) {
+function ovas(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
@@ -235,7 +235,7 @@ function showrecentposts1(json) {
     }
 }
 
-function ultimosanime(json) {
+function allanimes(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
