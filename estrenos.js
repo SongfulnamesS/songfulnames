@@ -5,7 +5,7 @@ aBold = true;
 summaryPost = 140;
 summaryTitle = 25;
 numposts2 = 99999;
-numposts1 = 50;
+numposts1 = 40;
 
 function removeHtmlTag(strx, chop) {
     var s = strx.split("<");
@@ -277,61 +277,6 @@ function ultimosanime(json) {
     }
 }
 
-function aleatorio(json) {
-    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
-    img = new Array();
-    if (numposts2 <= json.feed.entry.length) {
-        maxpost = numposts2
-    } else {
-        maxpost = json.feed.entry.length
-    }
-
-
-
-    for (var i = 0; i < maxpost; i++) {
-        var entry = json.feed.entry[i];
-        var posttitle = entry.title.$t;
-        var pcm;
-        var posturl;
-        if (i == json.feed.entry.length) break;
-        for (var k = 0; k < entry.link.length; k++) {
-            if (entry.link[k].rel == 'alternate') {
-                posturl = entry.link[k].href;
-                break
-            }
-        }
-        if ("content" in entry) {
-            var postcontent = entry.content.$t
-        } else if ("summary" in entry) {
-            var postcontent = entry.summary.$t
-        } else var postcontent = "";
-        postdate = entry.published.$t;
-        if (j > imgr.length - 1) j = 0;
-        img[i] = imgr[j];
-        s = postcontent;
-        a = s.indexOf("<img");
-        b = s.indexOf("src=\"", a);
-        c = s.indexOf("\"", b + 5);
-        d = s.substr(b + 5, c - b - 5);
-        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
-        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        var day = postdate.split("-")[2].substring(0, 2);
-        var m = postdate.split("-")[1];
-        var y = postdate.split("-")[0];
-        for (var u2 = 0; u2 < month.length; u2++) {
-            if (parseInt(m) == month[u2]) {
-                m = month2[u2];
-                break
-            }
-        }
-        var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 17px;padding: 3px;"><a class="big_portada_title" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
-
-        document.write(trtd);
-        j++
-    }
-}
 
 function carouselito(json) {
 j = (showRandomImg) ? Math.floor((imgr.length+1)*Math.random()) : 0;
@@ -390,8 +335,6 @@ document.write('</ul>');
 }
 
 var postTitle=new Array();var postUrl=new Array();var postMp3=new Array();var postDate=new Array();var postYear=new Array();var postMonth=new Array();var postYearMonth=new Array();var postYearMonth2=new Array();var postTanggal=new Array();var postLabels=new Array();var postBaru=new Array();var sortBy="titleasc";var tocLoaded=false;var numChars=250;var postFilter="";var numberfeed=0;var month2=["January","February","March","April","May","June","July","August","September","October","November","December"];function liscapitulos(a){function b(){if("entry"in a.feed){var d=a.feed.entry.length;numberfeed=d;ii=0;for(var h=0;h<d;h++){var m=a.feed.entry[h];var e=m.title.$t;var l=m.published.$t.substring(0,10);var p=m.published.$t.substring(5,7);var g=m.published.$t.substring(8,10);var n=month2[parseInt(p,10)-1]+" "+m.published.$t.substring(0,4);var c="/"+m.published.$t.substring(0,4)+"_"+p+"_01_archive.html";var j;for(var f=0;f<m.link.length;f++){if(m.link[f].rel=="alternate"){j=m.link[f].href;break}}var o="";for(var f=0;f<m.link.length;f++){if(m.link[f].rel=="enclosure"){o=m.link[f].href;break}}postTitle.push(e);postDate.push(l);postUrl.push(j);postYearMonth.push(n);postYearMonth2.push(c);postTanggal.push(g)}}}b();displayToc2();document.write('')}function displayToc2(){var a=0;var b=0;while(b<postTitle.length){temp1=postYearMonth[b];document.write("<p/>");firsti=a;do{document.write("");document.write('<a href="'+postUrl[a]+'">'+postTitle[a]+"</a>");document.write("");a=a+1}while(postYearMonth[a]==temp1);b=a;document.write("</ul>");if(b>postTitle.length){break}}};
-
-
 
 function thumbnails(url,image,size){
 var item=image;
