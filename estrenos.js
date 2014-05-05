@@ -177,7 +177,7 @@ function anime(json) {
     }
 }
 
-function showrecentposts1(json) {
+function latinos(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
