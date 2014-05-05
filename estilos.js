@@ -119,7 +119,7 @@ function semanal(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://4.bp.blogspot.com/-iLWPFywYVgg/U0a2zVfFqeI/AAAAAAAACA0/wEp4CmjnBLc/s1600/estrella.png" style="height:11px; vertical-align:middle;" title="Capitulos Semanales" alt="Progamacion Jkanime"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://3.bp.blogspot.com/-Tb6i2OrgUrs/U0a21laJahI/AAAAAAAACA8/21CmqxspRYw/s1600/verr.png" alt="Ver Anime"></a></li>';
+      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://4.bp.blogspot.com/-iLWPFywYVgg/U0a2zVfFqeI/AAAAAAAACA0/wEp4CmjnBLc/s1600/estrella.png" style="height:11px; vertical-align:middle;" title="Programacion Semanal" alt="Progamacion Jkanime"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://3.bp.blogspot.com/-Tb6i2OrgUrs/U0a21laJahI/AAAAAAAACA8/21CmqxspRYw/s1600/verr.png" alt="Ver Anime"></a></li>';
         document.write(trtd);
         j++
     }
