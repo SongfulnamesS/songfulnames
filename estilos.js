@@ -338,7 +338,7 @@ document.write('</ul>');
 
 function thumbnails(url,title,image,size){
 var item=image;
-var salida ='<a class="tooltip" href="'+url+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'" title="'+title+'" alt="'+title+'"/></a>';
+var salida ='<a class="tooltip" href="'+url+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'" alt="'+title+'"/></a>';
 if(item!="") return salida; else return "";
 }
 //
