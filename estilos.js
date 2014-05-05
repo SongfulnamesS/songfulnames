@@ -235,7 +235,7 @@ function ovas(json) {
     }
 }
 
-function allanimes(json) {
+function todosanime(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
