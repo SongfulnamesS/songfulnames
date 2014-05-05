@@ -333,7 +333,7 @@ function aleatorio(json) {
     }
 }
 
-function showrecentposts(json) {
+function carouselito(json) {
 j = (showRandomImg) ? Math.floor((imgr.length+1)*Math.random()) : 0;
 img = new Array();
 document.write('<ul>');
@@ -393,9 +393,9 @@ var postTitle=new Array();var postUrl=new Array();var postMp3=new Array();var po
 
 
 
-function thumbnails(url,title,image,size){
+function thumbnails(url,image,size){
 var item=image;
-var salida ='<a class="tooltip" href="'+url+'" title="'+title+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'" title="'+title+'" alt="'+title+'"/></a>';
+var salida ='<a class="tooltip" href="'+url+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'"/></a>';
 if(item!="") return salida; else return "";
 }
 //
@@ -418,7 +418,6 @@ function eliminattags(cual,longitud){
   return resumen;
 }
 function estrenos(json) {
-  var numposts = 999;
   var imagenpodefecto = "URL_imagen";
   var lenresumen = 100;
   var entry, posttitle, posturl, postimg, postcontent, salida;
@@ -446,7 +445,7 @@ function estrenos(json) {
       postimg = imagenpodefecto;
     }
       salida = "<div class='item-estrenos'>";
-    salida += "<a class='tooltip' href='" + posturl + "' title='" + posttitle + "'><img src='" + postimg + "' alt='" + posttitle + "' title='" + posttitle + "'/></a>";
+    salida += "<a class='tooltip' href='" + posturl + "'><img src='" + postimg + "' alt='" + posttitle + "' title='" + posttitle + "'/></a>";
       salida += "</div>";
       document.write(salida);
   }
