@@ -452,7 +452,7 @@ numero = 0;
         j++
     }
 }
-function showrecentposts(json) {
+function carouselito(json) {
 j = (showRandomImg) ? Math.floor((imgr.length+1)*Math.random()) : 0;
 img = new Array();
 document.write('<ul>');
