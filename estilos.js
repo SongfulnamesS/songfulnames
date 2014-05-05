@@ -336,7 +336,7 @@ j++;
 document.write('</ul>');
 }
 
-function thumbnails(url,title,image,size){
+function thumbnails(url,image,size){
 var item=image;
 var salida ='<a class="tooltip" href="'+url+'"><img src="'+item.replace('/s72-c/','/s'+size+'/')+'" alt="'+title+'"/></a>';
 if(item!="") return salida; else return "";
