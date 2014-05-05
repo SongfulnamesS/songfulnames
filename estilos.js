@@ -531,7 +531,6 @@ function eliminattags(cual,longitud){
   return resumen;
 }
 function estrenos(json) {
-  var numposts = 999;
   var imagenpodefecto = "URL_imagen";
   var lenresumen = 100;
   var entry, posttitle, posturl, postimg, postcontent, salida;
