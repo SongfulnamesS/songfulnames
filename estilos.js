@@ -585,3 +585,5 @@ if(displaymore==true)
 document.write(towrite);document.write('</li>');if(displayseparator==true)
 if(i!=(numposts-1))
 document.write('');}document.write('</ul>');}
+
+function wprp_toggle(e){return jQuery(e).slideToggle(400),!1}function wprp_report(e){var r=e.post.value,s=e.report_as.value,o=e.description.value,t=e._wpnonce.value;return jQuery("#wprp_report_link_"+r).hide(),jQuery("#wprpform"+r).hide(),jQuery("#wprp_message_"+r).fadeIn(100),jQuery("#wprp_message_"+r).html('<img src="'+wprpURL+'/assets/loading.gif" title="Processing your request, Please wait..." /> Processing your request, Please wait....'),jQuery.post(wprpURL+"/ajax.php",{postID:r,report_as:s,description:o,do_ajax_report:"true",wpnonce:t},function(e){jQuery("#wprp_message_"+r).html(e)}),!1}function MM_showHideLayers(){var i,v,obj,args=MM_showHideLayers.arguments;for(i=0;i<args.length-2;i+=3)with(document)getElementById&&null!=(obj=getElementById(args[i]))&&(v=args[i+2],obj.style&&(obj=obj.style,v="show"==v?"visible":"hide"==v?"hidden":v),obj.visibility=v)}$(document).ready(function(){$("#cont-busq-avanz").scrollbars()}),$(document).ready(function(){$("#cont-busq-tipo-dos").scrollbars()});
