@@ -388,7 +388,7 @@ function estrenos(json) {
       postimg = imagenpodefecto;
     }
       salida = "<div class='item-estrenos'>";
-    salida += "<a class='tooltip' href='" + posturl + "' title='" + posttitle + "'><img src='" + postimg + "' alt='" + posttitle + "' title='" + posttitle + "'/></a>";
+    salida += "<a class='tooltip' href='" + posturl + "'><img src='" + postimg + "' alt='" + posttitle + "' title='" + posttitle + "'/></a>";
       salida += "</div>";
       document.write(salida);
   }
