@@ -175,7 +175,7 @@ function toditos(json) {
     }
 }
 
-function showrecentposts1(json) {
+function pelidoramas(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
