@@ -1,3 +1,9 @@
+function videobam(IDvideobam) {
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"604\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
 function facebook(IDfacebook) {
   var output = "<iframe src=\"http://www.facebook.com/video/embed?video_id=" + IDfacebook + "\" width=\"605\" height=\"340\" frameborder=\"0\">";
   output += "</iframe>";
@@ -120,12 +126,6 @@ function zippyshare(IDzippyshare) {
 
 function twitter(IDtwitter) {
   var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/twi?v=" + IDtwitter + "\" width=\"604\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
-  output += "</iframe>";
-  document.write (output);
-}
-
-function videobam(IDvideobam) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"604\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
