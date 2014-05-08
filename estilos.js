@@ -270,7 +270,7 @@ function listados(json) {
         d = s.substr(b + 5, c - b - 5);
         if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
        
-      var trtd = '<li><a href="' + posturl + '">' + posttitle + '</a></li>';
+      var trtd = '<li><a href="' + posturl + '">' + posttitle + '</a><span>'+daystr+'</span></li>';
         document.write(trtd);
         j++
     }
