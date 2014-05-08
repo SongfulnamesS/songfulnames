@@ -15,13 +15,13 @@ function removeHtmlTag(strx,chop){
 	return strx+'...'; 
 }
 
-function createSummaryAndThumb(pID, pURL, title ,description){
+function createSummaryAndThumb(pID, pURL, title ,description ,showpostsummary){
 	var div = document.getElementById(pID);
 	var imgtag = "";
 	var img = div.getElementsByTagName("img");
 	var summ = summary_noimg;
 	if(img.length>=1) {	
-		imgtag = '<span><a href="'+ pURL +'" title="'+ description +'"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></a></span>';
+		imgtag = '<span><a href="'+ pURL +'" title="'+ showpostsummary +'"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></a></span>';
 		summ = summary_img;
 	}
 	
