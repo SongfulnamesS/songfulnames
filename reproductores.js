@@ -142,12 +142,6 @@ function ochenta(IDochenta) {
   document.write (output);
 }
 
-function hardsextube(IDhardsextube) {
-  var output = "<embed src=\"http://www.hardsextube.com/embed/" + IDhardsextube + "\"type=\"application/x-shockwave-flash\"wmode=\"transparent\"AllowScriptAccess=\"always\"allowFullScreen=\"true\"width=\"530\"height=\"340\">";
-  output += "</embed>";
-  document.write (output);
-}
-
 function vidbull(IDvidbull) {
   var output = "<iframe src=\"http://vidbull.com/embed-" + IDvidbull + "-530x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"530\"height=\"340\">";
   output += "</iframe>";
