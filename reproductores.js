@@ -143,8 +143,8 @@ function ochenta(IDochenta) {
 }
 
 function hardsextube(IDhardsextube) {
-  var output = "<object width=\"530\" height=\"340\"> <param name=\"movie\" value=\"http://www.hardsextube.com/embed/" + IDhardsextube + "/\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"AllowScriptAccess" value=\"always\"></param><param name=\"wmode\" value=\"transparent\"></param><embed src=\"http://www.hardsextube.com/embed/" + IDhardsextube + "/\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" AllowScriptAccess=\"always\" allowFullScreen=\"true\" width=\"530\" height=\"340\"></embed>";
-  output += "</object>";
+  var output = "<embed src=\"http://www.hardsextube.com/embed/" + IDhardsextube + "\"type=\"application/x-shockwave-flash\"wmode=\"transparent\"AllowScriptAccess=\"always\"allowFullScreen=\"true\"width=\"530\"height=\"340\">";
+  output += "</embed>";
   document.write (output);
 }
 
