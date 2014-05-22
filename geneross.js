@@ -333,7 +333,7 @@ return this;
 
 $.fn.hoverscroll.params = {
 vertical: false, 
-width: 130,
+width: 140,
 height: 50, 
 arrows: true,
 arrowsOpacity: 0.7, 
@@ -360,7 +360,7 @@ var id = $(this).attr("href").slice(1);
 loadvideo(id);
 return false;
 });
-$("#slidervideo-tabs").hoverscroll({vertical:true,width:130,height:330,arrows:false});
+$("#slidervideo-tabs").hoverscroll({vertical:true,width:140,height:330,arrows:false});
 $("#slidervideo-tabs li").hover(function(){$(this).addClass("hover");},function(){$(this).removeClass("hover");});
 loadvideo();
 });
