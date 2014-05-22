@@ -360,7 +360,7 @@ var id = $(this).attr("href").slice(1);
 loadvideo(id);
 return false;
 });
-$("#slidervideo-tabs").hoverscroll({vertical:true,width:130,height:330,arrows:false});
+$("#slidervideo-tabs").hoverscroll({vertical:true,width:120,height:330,arrows:false});
 $("#slidervideo-tabs li").hover(function(){$(this).addClass("hover");},function(){$(this).removeClass("hover");});
 loadvideo();
 });
