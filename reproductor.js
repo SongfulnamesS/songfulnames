@@ -112,16 +112,42 @@ function powvideo(IDpowvideo) {
   document.write (output);
 }
 
-function gloria(IDgloria) {
-  var output = "<iframe src=\"http://gloria.tv/?embed=frame&amp; media=" + IDgloria + "&amp; width=530&amp; height=340\"width=\"530\"height=\"340\"frameborder=\"0\"scrolling=\"no\"allowfullscreen>";
+function veevr(IDveevr) {
+ var output = "<iframe src='http://veevr.com/embed/" + IDveevr + "' width='605' height='340' scrolling='no' frameborder='0'>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function jokeroo(jokeroo) {
+  var output = "<object id=\"player\" width=\"605\" height=\"340\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" >";
+  output += "<param name=\"movie\" value=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" >";
+  output += "</param>";
+  output += "<param name=\"allowFullScreen\" value=\"true\" >";
+  output += "</param>";
+  output += "<param name=\"allowscriptaccess\" value=\"always\">";
+  output += "</param>";
+  output += "<embed src=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"605\" height=\"340\">";
+  output += "</embed>";
+  output += "</object>";
+  document.write (output);
+}
+
+function uploadboost(IDuploadboost) {
+  var output = "<iframe title=\"uploadboost video player\" width=\"605\" height=\"340\" src=\"http://www.uploadboost.com/" + IDuploadboost + "&amp;width=605&amp;height=340\" frameborder=\"0\" allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
-function films(IDfilms) {
-  var output = "<iframe src=\"http://www.yaske.net/archivos/netu/tv/embed_" + IDfilms + ".html?size=530x340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"530\"height=\"340\">";
-  output += "</iframe>";
+function mediafire(IDmediafire) {
+  var output = "<center><iframe src=\"http://veranimesonline.com/frans/stream/mediafire.php?id=" + IDmediafire + "\" width=\"605\" height=\"340\" scrolling=\"no\" frameborder=\"0\">";
+  output += "</iframe></center>";
   document.write (output);
+}
+
+function tutv(IDtutv) {
+ var output = "<iframe width=\"605\" height=\"340\" src=\"http://tu.tv/iframe/" + IDtutv + "/\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
 }
 
 function flashx(IDflashx) {
@@ -133,12 +159,6 @@ function flashx(IDflashx) {
 function tumi(IDtumi) {
   var output = "<IFRAME SRC=\"http://tumi.tv/embed-" + IDtumi + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
   output += "</IFRAME>";
-  document.write (output);
-}
-
-function xhamster(IDxhamster) {
-  var output = "<iframe width=\"530\"height=\"340\"src=\"http://xhamster.com/xembed.php?video=" + IDxhamster + "\"frameborder=\"0\"scrolling=\"no\">";
-  output += "</iframe>";
   document.write (output);
 }
 
@@ -157,12 +177,6 @@ function xvideos(IDxvideos) {
 function netu(IDnetu) {
   var output = "<iframe src=\"http://hqq.tv/player/embed_player.php?vid=" + IDnetu + "&autoplay=no\" height=\"340\" width=\"530\" style=\"z-index:2147483647;\" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
-  document.write (output);
-}
-
-function redtube(IDredtube) {
-  var output = "<embed src=\"http://embed.redtube.com/player/?id=" + IDredtube + "&style=redtube\"allowfullscreen=\"true\"AllowScriptAccess=\"always\"flashvars=\"autostart=false\"pluginspage=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\"type=\"application/x-shockwave-flash\"height=\"340\"width=\"530\">";
-  output += "</embed>";
   document.write (output);
 }
 
@@ -192,12 +206,6 @@ function novamov(IDnovamov) {
 
 function nowvideo(IDnowvideo) {
   var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=530&amp; height=340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"530\"height=\"340\"scanned=\"yes\">";
-  output += "</iframe>";
-  document.write (output);
-}
-
-function pornhub(IDpornhub) {
-  var output = "<iframe src=\"http://www.pornhub.com/embed/" + IDpornhub + "\"frameborder=\"0\"width=\"530\"height=\"340\"scrolling=\"no\"><a href=\"http://www.pornhub.com/view_video.php?viewkey=" + IDpornhub + "\">Red Sex</a>brought to you by <a href=\"http://www.pornhub.com/\">PornHub</a>";
   output += "</iframe>";
   document.write (output);
 }
