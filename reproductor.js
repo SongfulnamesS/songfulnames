@@ -107,11 +107,10 @@ function vidspot(IDvidspot) {
 }
 
 function viki(IDviki) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/viki?v=" + IDviki + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  var output = "<iframe src=\"http://www.viki.mx/player/" + IDviki + "\" width=\"605\" height=\"340\" frameBorder=\"0\">";
   output += "</iframe>";
   document.write (output);
 }
-
 
 function videolog(IDvideolog) {
   var output = "<iframe width=\"605\" height=\"340\" src=\"http://embed.videolog.tv/v/index.php?id_video=" + IDvideolog + "\" scrolling=\"no\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen>";
