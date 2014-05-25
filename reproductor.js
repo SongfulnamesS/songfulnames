@@ -107,7 +107,7 @@ function vidspot(IDvidspot) {
 }
 
 function viki(IDviki) {
-  var output = "<iframe src=\"http://www.viki.mx/player/" + IDviki + "\" width=\"605\" height=\"340\" frameBorder=\"0\">";
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-d/viki?v=" + IDviki + "\" width=\"670\" height=\"400\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
