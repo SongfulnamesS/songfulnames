@@ -16,6 +16,54 @@ output += "</embed>";
 document.write (output);
 }
 
+function amz(IDamz) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/amz?v=" + IDamz  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function bitcasa(IDbitcasa) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bitcasa?v=" + IDbitcasa  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function twitter(IDtwitter) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/twi?v=" + IDtwitter + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function dailymotion(IDdailymotion) {
+ var output = "<iframe frameborder=\"0\" width=\"605\" height=\"340\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function facebook(IDfacebook) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/face?v=" + IDfacebook + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function shares(IDshares) {
+ var output = "<embed src=\"http://www.4shared.com/embed/"+IDshares+"\" width=\"604\" height=\"340\" allowfullscreen=\"true\" allowscriptaccess=\"always\">";
+ output += "</embed>";
+ document.write (output);
+}
+
+function namba(IDnamba) {
+ var output = "<object height=\"340\" width=\"605\" type=\"application/x-shockwave-flash\" data=\"http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf\"><param value=\"true\" name=\"allowfullscreen\"><param value=\"opaque\" name=\"wmode\"><param value=\"always\" name=\"allowscriptaccess\"><param name=\"src\" value=\"http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf\" /><param value=\"config=http://video.namba.net/flashvars-3.2.11.php?i="+IDnamba+"\" name=\"flashvars\">";
+ output += "</object>";
+ document.write (output);
+}
+
+function shared(IDshared) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function zippyshar(IDzippyshar) {
  var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url=" + IDzippyshar + "&amp;width=605&amp;height=330&amp;tiempo=10&amp;width=605&amp;height=330\" scrolling=\"no\">";
  output += "</iframe>";
