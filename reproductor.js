@@ -106,6 +106,26 @@ function vidspot(IDvidspot) {
   document.write (output);
 }
 
+function viki(IDviki) {
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/viki?v=" + IDviki + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+
+function videolog(IDvideolog) {
+  var output = "<iframe width=\"605\" height=\"340\" src=\"http://embed.videolog.tv/v/index.php?id_video=" + IDvideolog + "\" scrolling=\"no\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function telly(IDtelly) {
+  var output = "<iframe src=\"http://telly.com/embed.php?guid=" + IDtelly + "&autoplay=0\" title=\"Telly video player \" class=\"twitvid-player\" type=\"text/html\" width=\"605\" height=\"340\" frameborder=\"0\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+
 function powvideo(IDpowvideo) {
   var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
   output += "</IFRAME>";
