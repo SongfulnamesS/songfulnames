@@ -1,5 +1,5 @@
 function premiun(IDpremiun) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"650\" height=\"350\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
@@ -16,26 +16,44 @@ output += "</embed>";
 document.write (output);
 }
 
+function zippyshar(IDzippyshar) {
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url=" + IDzippyshar + "&amp;width=605&amp;height=330&amp;tiempo=10&amp;width=605&amp;height=330\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function picasas(IDpicasas) {
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_picasaweb/index2.php?url=" + IDpicasas + "&amp;width=605&amp;height=330&amp;tiempo=10\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function zippyshare(IDzippyshare) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function picasa(IDpicasa) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function gamovideo(IDgamovideo) {
   var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-530x340.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"530\" height=\"340\">";
   output += "</iframe>";
   document.write (output);
 }
 
-function songful(IDsongful) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDsongful + "\" width=\"530\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+function videobam(IDvideobam) {
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"530\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function vidspot(IDvidspot) {
   var output = "<iframe src=\"http://vidspot.net/embed-" + IDvidspot + ".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=530 height=340>";
-  output += "</iframe>";
-  document.write (output);
-}
-
-function mail(IDmail) {
-  var output = "<iframe src='http://api.video.mail.ru/videos/embed/mail/"+IDusuario+"/_myvideo/"+IDmail+".html' width='530' height='340' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
