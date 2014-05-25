@@ -1,1 +1,249 @@
-function playcito(o){var e='<embed class="player_conte" src="http://zet.videosxd.org/swf/player.swf" width="605" height="340" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="file=http://www.animeid.tv/stream/'+o+'&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1">';document.write(e)}   function songfulnames(o){var e='<embed class="player_conte" src="https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf" width="605" height="340" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="file='+o+'&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1">';document.write(e)}    function premiun(o){var e='<embed class="player_conte" src="https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf" width="605" height="340" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="file=http://www.animeid.tv/stream/'+o+'&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1">';document.write(e)} function telly(t){var e='<iframe title="Twitvid video player" class="twitvid-player" type="text/html" width="605" height="340" src="http://www.twitvid.com/embed.php?guid='+t+'&amp;autoplay=0" frameborder="0" scanned="yes"></iframe>';document.write(e)} function  facebook(o){var e='<iframe src="http://www.facebook.com/video/embed?video_id='+e+'" width="605" height="340" frameborder="0"></iframe>';document.write(t)}  function netu(e){var l='<iframe src="http://hqq.tv/player/embed_player.php?vid='+e+'&autoplay=no" height="340" width="604" style="z-index:2147483647;" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder="0" scrolling="no"></iframe>';document.write(l)}function videolog(e){var t='<iframe width="604" height="340" src="http://embed.videolog.tv/v/index.php?id_video='+e+'" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';document.write(t)}function namba(e){var t='<object height="340" width="604" type="application/x-shockwave-flash" data="http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf"><param value="true" name="allowfullscreen"><param value="opaque" name="wmode"><param value="always" name="allowscriptaccess"><param name="src" value="http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf" /><param value="config=http://video.namba.net/flashvars-3.2.11.php?i='+e+'" name="flashvars"></object>';document.write(t)}function shares(e){var t='<embed src="http://www.4shared.com/embed/'+e+'" width="604" height="340" allowfullscreen="true" allowscriptaccess="always"></embed>';document.write(t)}function viki(e){var t='<iframe src="http://zet.videosxd.org/repro-d/viki?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function vidspot(e){var t='<iframe src="http://vidspot.net/embed-'+e+".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=604 height=340></iframe>";document.write(t)}function espartacus(e){var t='<IFRAME SRC="http://faststream.in/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function shared(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/shared?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function amz(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/amz?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function bitcasa(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/bitcasa?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function played(e){var t='<IFRAME SRC="http://played.to/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function videomega(e){var t='<iframe width="604" height="340" scrolling="no" frameborder="0" src="http://videomega.tv/iframe.php?ref='+e+'&width=604&height=340">';t+="</iframe>",document.write(t)}function tumi(e){var t='<IFRAME SRC="http://tumi.tv/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)}function powvideo(e){var t='<IFRAME SRC="http://powvideo.net/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';document.write(t)} function picasas(e){var t='<iframe style="overflow: hidden;border:0;width:604px;height:340px" src="http://www.vanime.net/plugins/gkplugins_picasaweb/index2.php?url='+e+'&amp;width=604&amp;height=330&amp;tiempo=10&amp;width=604&amp;height=330" scrolling="no"></iframe>';document.write(t)}   function zippyshar(e){var t='<iframe style="overflow: hidden;border:0;width:604px;height:340px" src="http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url='+e+'&amp;width=604&amp;height=330&amp;tiempo=10&amp;width=604&amp;height=330" scrolling="no"></iframe>';document.write(t)}function picasa(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/picasa?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function zippyshare(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/zipy?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function twitter(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/twi?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function videobam(e){var t='<iframe src="http://zet.videosxd.org/repro-rc/bam?v='+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function sockshare(e){var t='<iframe src="http://www.sockshare.com/embed/'+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function putlocker(e){var t='<iframe src="http://www.putlocker.com/embed/'+e+'" width="604" height="340" frameborder="0" scrolling="no"></iframe>';document.write(t)}function novamov(e){var t='<iframe title="novamov video player" width="604" height="340" src="http://embed.novamov.com/embed.php?width=604&amp;height=340&amp;v='+e+'&amp;px=1" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function nowvideo(e){var t='<iframe src="http://embed.nowvideo.eu/embed.php?v='+e+'&width=604&height=340" frameborder="0" scrolling="no" allowtransparency="true" width="604" height="340" style="margin:0px;"></iframe>';document.write(t)}function movzap(e){var t='<iframe title="MovZAP Video Player" width="604" height="340" scrolling="no" frameborder="0" src="http://movzap.com/embed/'+e+'&width=604&height=350"></iframe>';document.write(t)}function videomega(e){var t='<iframe width="604" height="340" scrolling="no" frameborder="0" src="http://videomega.tv/iframe.php?ref='+e+'&width=604&height=340">';t+="</iframe>",document.write(t)}function vimple(e){var t='<iframe src="http://player.vimple.ru/iframe/'+e+'" width="604" height="340" frameborder="0" style="z-index:2147483647;"></iframe>';document.write(t)}function ochenta(e){var t='<IFRAME SRC="http://180upload.com/embed-'+e+'-604x340.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=604 HEIGHT=340></IFRAME>';t+='<img src="http://4.bp.blogspot.com/-8Q--38Wk57U/UOzeBQv3kWI/AAAAAAAACG0/ATxSN9wX_9Q/s1600/Dibujo.JPG" />',document.write(t)}function vidbull(e){var t='<iframe src="http://vidbull.com/embed-'+e+'-604x340.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" width="604" height="340"></iframe>';document.write(t)}function newtwitvid(e){var t='<object id=\n"player" width="604" height="350" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" >';t+='<param name="movie" value="http://player.longtailvideo.com/player5.9.swf" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<param file="http://llphotos.twitvid.com/twitvidvideosv2/'+e+'.mp4&amp;logo.file=https://lh4.googleusercontent.com/-CYbM8nSJjjU/UMIUUI-w1EI/AAAAAAAACgQ/m5gKm_XjgZw/s1600/logoqestreno.png&amp;image=http://dl.dropbox.com/u/6188287/animefondo.png&amp;skin=&amp;controlbar.position=over" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="350">',t+="</param>",t+="</object>",document.write(t)}function videobb(e){var t='<object id="player" width="604" height="350" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >';t+='<param name="movie" value="http://www.videobb.com/e/'+e+'" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<embed src="http://www.videobb.com/e/'+e+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="350">',t+="</embed>",t+="</object>",document.write(t)}function dailymotion(e){var t='<iframe frameborder="0" width="604" height="340" src="http://www.dailymotion.com/embed/video/'+e+'" allowfullscreen></iframe>';document.write(t)}function verzend(e){var t='<iframe title="verzend video player" width="604" height="340" src="http://verzend.be/'+e+'.html" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vidbull(e){var t='<iframe title="vidbull video player" width="604" height="340" src="http://vidbull.com/'+e+'.html" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function modovideo(e){var t='<iframe src="http://www.modovideo.com/frame.php?v='+e+'" width="604" height="340" frameborder="0">';t+="</iframe>",document.write(t)}function novamov(e){var t='<iframe title="novamov video player" width="604" height="340" src="http://embed.novamov.com/embed.php?width=604&amp;height=340&amp;v='+e+'&amp;px=1" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function veevr(e){var t='<iframe src="http://veevr.com/embed/'+e+'?w=604&amp;h=340" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe>",document.write(t)}function nowvideo(e){var t='<iframe src="http://embed.nowvideo.eu/embed.php?v='+e+'&amp;width=604&amp;height=340" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe>",document.write(t)}function mediafire(e){var t='<center><iframe src="http://veranimesonline.com/frans/stream/mediafire.php?id='+e+'" width="604" height="340" scrolling="no" frameborder="0">';t+="</iframe></center>",document.write(t)}function jokeroo(e){var t='<object id="player" width="604" height="340" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" >';t+='<param name="movie" value="http://www.jokeroo.com/bin/player.swf?'+e+'" >',t+="</param>",t+='<param name="allowFullScreen" value="true" >',t+="</param>",t+='<param name="allowscriptaccess" value="always">',t+="</param>",t+='<embed src="http://www.jokeroo.com/bin/player.swf?'+e+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="604" height="340">',t+="</embed>",t+="</object>",document.write(t)}function moevideo(e){var t='<iframe width="604" height="340" src="http://moevideo.net/framevideo/'+e+'?width=604&height=340"  frameborder="0" allowfullscreen ></iframe>';document.write(t)}function vk(e){var t='<iframe src="http://vk.com/video_ext.php?oid='+e+'" width="604" height="340" frameborder="0"></iframe>';document.write(t)}function allmyvideos(e){var t='<iframe src="http://allmyvideos.net/embed-'+e+".html\" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=604 height=340></iframe>";document.write(t)}function videoweed(e){var t='<iframe title="vk video player" width="604" height="340" src="http://embed.videoweed.es/embed.php?v='+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function movzap(e){var t='<iframe title="movzap video player" width="604" height="340" src="http://movzap.com/embed/'+e+'" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vidxden(e){var t='<iframe title="vidxden video player" width="604" height="340" src="http://www.vidxden.com/'+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function tutvnew(e){var t='<iframe title="tutvnew video player" width="604" height="340" src="http://tu.tv/iframe/'+e+'/" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function vreer(e){var t='<iframe title="vreer video player" width="604" height="340" src="http://vreer.com/'+e+'" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)}function uploadboost(e){var t='<iframe title="uploadboost video player" width="604" height="340" src="http://www.uploadboost.com/'+e+'&amp;width=604&amp;height=340" frameborder="0" allowfullscreen>';t+="</iframe>",document.write(t)} function tutv(e){var t='<iframe width="604" height="340" src="http://tu.tv/iframe/'+e+'/" frameborder="0" scrolling="no"></iframe>';document.write(t)}function rutube(e){var t='<iframe width="604" height="340" src="//rutube.ru/video/embed/'+e+'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>';document.write(t)}function youtube(e){var t='<iframe width="604" height="340" src="//www.youtube.com/embed/'+e+'" frameborder="0" allowfullscreen></iframe>';document.write(t)}function songful(e){var t="<embed name='flashplayer' src='https://codewarblog-js-css.googlecode.com/svn/trunk/jkanime/js/player.swf' flashvars='plugins=https://codewarblog-js-css.googlecode.com/svn/trunk/jkanime/js/proxy.swf&amp;proxy.link="+e+"' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' height='340' width='604'>";document.write(t)}function descarga(e,t){document.write("<center><div id='tensei-descarga'><a href='"+e+"' alt='Descargar este capitulo' target='_blank' > </a> <span>"+t+"</span></div></center>")}function otrocb(e,t){document.write("<center><div style='height:41px;margin-left:5px;margin-top:-55px;'><a class='tip' href='"+e+"' style='float: left;' title='Capitulo Anterior'><img src='http://3.bp.blogspot.com/-BabVBo8PBmI/UyzJBKsUPTI/AAAAAAAABvM/DRbp9CxYV-s/s1600/anterior.png' /></a><a class='tip' href='"+t+"' style='float: right;margin-right:11px;' title='Capitulo Siguiente'><img src='http://3.bp.blogspot.com/-mdpsMOMbHAs/UyzJCbLva2I/AAAAAAAABvU/HiRX0pMHt9s/s1600/siguiente.png' /></a></div></center>")}function lista(e){document.write("<a href='"+e+"' id='tensei-lista'>Ver todos los capÃƒÆ’Ã‚Â­tulos</a>")}
+function premiun(IDpremiun) {
+var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+output += "</embed>";
+document.write (output);
+}
+
+function playcito(IDplaycito) {
+var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+output += "</embed>";
+document.write (output);
+}
+
+function songfulnames(IDsongfulnames) {
+var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDsongfulnames + "&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+output += "</embed>";
+document.write (output);
+}
+
+function zippyshar(IDzippyshar) {
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url=" + IDzippyshar + "&amp;width=605&amp;height=330&amp;tiempo=10&amp;width=605&amp;height=330\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function picasas(IDpicasas) {
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_picasaweb/index2.php?url=" + IDpicasas + "&amp;width=605&amp;height=330&amp;tiempo=10\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function zippyshare(IDzippyshare) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function twitter(IDtwitter) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/twi?v=" + IDtwitter + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function dailymotion(IDdailymotion) {
+ var output = "<iframe frameborder=\"0\" width=\"605\" height=\"340\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function picasa(IDpicasa) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function facebook(IDfacebook) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/face?v=" + IDfacebook + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function shares(IDshares) {
+ var output = "<embed src=\"http://www.4shared.com/embed/"+IDshares+"\" width=\"604\" height=\"340\" allowfullscreen=\"true\" allowscriptaccess=\"always\">";
+ output += "</embed>";
+ document.write (output);
+}
+
+function namba(IDnamba) {
+ var output = "<object height=\"340\" width=\"605\" type=\"application/x-shockwave-flash\" data=\"http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf\"><param value=\"true\" name=\"allowfullscreen\"><param value=\"opaque\" name=\"wmode\"><param value=\"always\" name=\"allowscriptaccess\"><param name=\"src\" value=\"http://video.namba.net/swf/player/3.2.11/flowplayer-3.2.11.swf\" /><param value=\"config=http://video.namba.net/flashvars-3.2.11.php?i="+IDnamba+"\" name=\"flashvars\">";
+ output += "</object>";
+ document.write (output);
+}
+
+function shared(IDshared) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function amz(IDamz) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/amz?v=" + IDamz  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function bitcasa(IDbitcasa) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bitcasa?v=" + IDbitcasa  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function played(IDplayed) {
+ var output = "<IFRAME SRC=\"http://played.to/embed-" + IDplayed + "-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+ output += "</IFRAME>";
+ document.write (output);
+}
+
+function allmyvideos(IDallmyvideos) {
+ var output = "<iframe src=\"http://allmyvideos.net/embed-" + IDallmyvideos + "-605x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"605\"height=\"340\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function videomega(IDvideomega) {
+ var output = "<iframe width=\"605\"height=\"340\"scrolling=\"no\"frameborder=\"0\"src=\"http://videomega.tv/iframe.php?ref=" + IDvideomega + "&width=605&height=340\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function vimple(IDvimple) {
+ var output = "<iframe src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"605\" height=\"340\" frameborder=\"0\" style=\"z-index:2147483647;\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function youtube(IDyoutube) {
+ var output = "<iframe width=\"605\"height=\"340\"src=\"//www.youtube.com/embed/" + IDyoutube + "\"frameborder=\"0\"allowfullscreen>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function ochenta(IDochenta) {
+ var output = "<IFRAME SRC=\"http://180upload.com/embed-" + IDochenta + "-605x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+ output += "</IFRAME>";
+ document.write (output);
+}
+
+}function moevideo(IDmoevideo) {
+ var output = "<iframe width=\"605\"height=\"340\"src=\"http://moevideo.net/framevideo/" + IDmoevideo + "?width=605&height=340\"frameborder=\"0\"allowfullscreen >";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function vk(IDvk) {
+ var output = "<iframe title=\"VK video player Online HD\"width=\"605\"height=\"340\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function rutube(IDrutube) {
+ var output = "<iframe width=\"605\"height=\"340\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function sockshare(IDsockshare) {
+ var output = "<iframe src=\"http://www.sockshare.com/embed/" + IDsockshare + "\"width=\"605\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function putlocker(IDputlocker) {
+ var output = "<iframe src=\"http://www.putlocker.com/embed/" + IDputlocker + "\"width=\"605\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function novamov(IDnovamov) {
+ var output = "<iframe title=\"novamov video player\"width=\"605\"height=\"340\"src=\"http://embed.novamov.com/embed.php?width=605&amp; height=340&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function nowvideo(IDnowvideo) {
+ var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=605&amp; height=340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"605\"height=\"340\"scanned=\"yes\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function tumi(IDtumi) {
+ var output = "<IFRAME SRC=\"http://tumi.tv/embed-" + IDtumi + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+ output += "</IFRAME>";
+ document.write (output);
+}
+
+function powvideo(IDpowvideo) {
+ var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-530x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+ output += "</IFRAME>";
+ document.write (output);
+}
+
+function vidspot(IDvidspot) {
+ var output = "<iframe src=\"http://vidspot.net/embed-" + IDvidspot + ".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=605 height=340>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function gamovideo(IDgamovideo) {
+ var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-605x340.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"605\" height=\"340\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function tutv(IDtutv) {
+ var output = "<iframe width=\"605\" height=\"340\" src=\"http://tu.tv/iframe/" + IDtutv + "/\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function veevr(IDveevr) {
+ var output = "<iframe src='http://veevr.com/embed/" + IDveevr + "' width='605' height='340' scrolling='no' frameborder='0'>";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function jokeroo(jokeroo) {
+  var output = "<object id=\"player\" width=\"605\" height=\"340\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" >";
+  output += "<param name=\"movie\" value=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" >";
+  output += "</param>";
+  output += "<param name=\"allowFullScreen\" value=\"true\" >";
+  output += "</param>";
+  output += "<param name=\"allowscriptaccess\" value=\"always\">";
+  output += "</param>";
+  output += "<embed src=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"605\" height=\"340\">";
+  output += "</embed>";
+  output += "</object>";
+  document.write (output);
+}
+
+function uploadboost(IDuploadboost) {
+  var output = "<iframe title=\"uploadboost video player\" width=\"605\" height=\"340\" src=\"http://www.uploadboost.com/" + IDuploadboost + "&amp;width=605&amp;height=340\" frameborder=\"0\" allowfullscreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function mediafire(IDmediafire) {
+  var output = "<center><iframe src=\"http://veranimesonline.com/frans/stream/mediafire.php?id=" + IDmediafire + "\" width=\"605\" height=\"340\" scrolling=\"no\" frameborder=\"0\">";
+  output += "</iframe></center>";
+  document.write (output);
+}
+
+function netu(IDnetu) {
+  var output = "<iframe src=\"http://hqq.tv/player/embed_player.php?vid=" + IDnetu + "&autoplay=no\" height=\"340\" width=\"605\" style=\"z-index:2147483647;\" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder=\"0\" scrolling=\"no\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function videolog(IDvideolog) {
+  var output = "<iframe width=\"605\" height=\"340\" src=\"http://embed.videolog.tv/v/index.php?id_video=" + IDvideolog + "\" scrolling=\"no\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen>";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function telly(IDtelly) {
+  var output = "<iframe src=\"http://telly.com/embed.php?guid=" + IDtelly + "&autoplay=0\" title=\"Telly video player \" class=\"twitvid-player\" type=\"text/html\" width=\"605\" height=\"340\" frameborder=\"0\">";
+  output += "</iframe>";
+  document.write (output);
+}
+
+function descarga(link,peso){document.write("<center><div id='tensei-descarga'><a href='"+link +"' alt='Descargar este capitulo' target='_blank' > </a> <span>"+peso+"</span></div></center>")}function otrocb(anterior,siguiente){document.write("<center><div style='height:41px;margin-left:5px;margin-top:-55px;'><a class='tip' href='"+anterior +"' style='float: left;' title='Capitulo Anterior'><img src='http://3.bp.blogspot.com/-BabVBo8PBmI/UyzJBKsUPTI/AAAAAAAABvM/DRbp9CxYV-s/s1600/anterior.png' /></a><a class='tip' href='"+siguiente +"' style='float: right;margin-right:11px;' title='Capitulo Siguiente'><img src='http://3.bp.blogspot.com/-mdpsMOMbHAs/UyzJCbLva2I/AAAAAAAABvU/HiRX0pMHt9s/s1600/siguiente.png' /></a></div></center>")}function lista(link){document.write("<a href='"+link +"' id='tensei-lista'>Ver todos los cap?tulos</a>")}
