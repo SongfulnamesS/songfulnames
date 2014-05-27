@@ -382,7 +382,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="480" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
+      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="450" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
 
         document.write(trtd);
         j++
@@ -438,7 +438,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="font-size:18px;">' + posttitle... + '</strong></a></div>';
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="font-size:18px;">' + posttitle + '</strong></a></div>';
 
       document.write(trtd);
         j++
