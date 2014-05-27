@@ -382,7 +382,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="450" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
+      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="480" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
 
         document.write(trtd);
         j++
