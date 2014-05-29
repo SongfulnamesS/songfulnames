@@ -1,11 +1,11 @@
 function premiun(IDpremiun) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&image=http://1.bp.blogspot.com/-zJHkoJiXtoM/Uz2y9GhPSfI/AAAAAAAAB2k/lZUtTawuJmI/s1600/naruto+shippuden.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&image=http://2.bp.blogspot.com/-1UO1IS2Yk74/U4aGdUmbi8I/AAAAAAAACKc/LCjCVMMXkzo/s1600/songfulnames.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function playcito(IDplaycito) {
-var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&image=http://1.bp.blogspot.com/-zJHkoJiXtoM/Uz2y9GhPSfI/AAAAAAAAB2k/lZUtTawuJmI/s1600/naruto+shippuden.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&image=http://2.bp.blogspot.com/-n0IG8QjEBuI/U4aHc9cXPUI/AAAAAAAACKo/NGSEYcd1lIA/s1600/songfulnames1.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
@@ -71,7 +71,7 @@ function shared(IDshared) {
 }
 
 function zippyshar(IDzippyshar) {
- var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url=" + IDzippyshar + "&image=http://1.bp.blogspot.com/-zJHkoJiXtoM/Uz2y9GhPSfI/AAAAAAAAB2k/lZUtTawuJmI/s1600/naruto+shippuden.jpg&amp;width=605&amp;height=330&amp;tiempo=10&amp;width=605&amp;height=330\" scrolling=\"no\">";
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" src=\"http://www.vanime.net/plugins/gkplugins_zippyshare/index2.php?url=" + IDzippyshar + "&amp;width=605&amp;height=330&amp;tiempo=10&amp;width=605&amp;height=330\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
