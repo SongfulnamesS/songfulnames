@@ -130,7 +130,6 @@ function telly(IDtelly) {
   document.write (output);
 }
 
-
 function powvideo(IDpowvideo) {
   var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
   output += "</IFRAME>";
@@ -171,6 +170,12 @@ function mediafire(IDmediafire) {
 
 function tutv(IDtutv) {
  var output = "<iframe width=\"605\" height=\"340\" src=\"http://tu.tv/iframe/" + IDtutv + "/\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function yourupload(IDyourupload) {
+ var output = "<iframe src=\"http://embed.yourupload.com/" + IDyourupload + "\" >";
  output += "</iframe>";
  document.write (output);
 }
