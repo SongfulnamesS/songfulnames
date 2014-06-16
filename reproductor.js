@@ -174,12 +174,6 @@ function tutv(IDtutv) {
  document.write (output);
 }
 
-function yourupload(IDyourupload) {
- var output = "<iframe src=\"http://embed.yourupload.com/" + IDyourupload + "\" >";
- output += "</iframe>";
- document.write (output);
-}
-
 function flashx(IDflashx) {
   var output = "<iframe width=\"605\"height=\"340\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
