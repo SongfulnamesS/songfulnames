@@ -40,6 +40,12 @@ function films(IDfilms) {
   document.write (output);
 }
 
+function tromes(IDtromes) {
+  var output = "<IFRAME SRC=\"http://video4you.me/embed-" + IDtromes + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>;
+  output += "</IFRAME >";
+  document.write (output);
+}
+
 function flashx(IDflashx) {
   var output = "<iframe width=\"530\"height=\"340\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
