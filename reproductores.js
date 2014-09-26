@@ -46,6 +46,12 @@ function tromes(IDtromes) {
   document.write (output);
 }
 
+function netvdz(IDnetvdz) {
+  var output = "<IFRAME SRC=\"http://netvdz.com/embed-" + IDnetvdz + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  output += "</IFRAME>";
+  document.write (output);
+}
+
 function flashx(IDflashx) {
   var output = "<iframe width=\"530\"height=\"340\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
