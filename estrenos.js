@@ -646,7 +646,7 @@ if(showcommentnum==true)
 {if(flag==1){towrite=towrite+' | ';}
 if(commenttext=='1 Comments')commenttext='1 Comment';if(commenttext=='0 Comments')commenttext='No Comments';commenttext='<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';towrite=towrite+commenttext;flag=1;;}
 if(displaymore==true)
-{if(flag==1)towrite=towrite+' | ';towrite=towrite+'<a href="'+posturl+'" class="url" style="color:white;">Ver Episodio</a>';flag=1;;}
+{if(flag==1)towrite=towrite+' | ';towrite=towrite+'<a href="'+posturl+'" class="url" style="color:white;">Ver Pelicula</a>';flag=1;;}
 document.write(towrite);document.write('</li>');if(displayseparator==true)
 if(i!=(numposts-1))
 document.write('');}document.write('</ul>');}
