@@ -4,8 +4,20 @@ function premiun(IDpremiun) {
  document.write (output);
 }
 
+function gratiss(IDgratiss) {
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgratiss + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ output += "</embed>";
+ document.write (output);
+}
+
 function playcito(IDplaycito) {
 var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+output += "</embed>";
+document.write (output);
+}
+
+function players(IDplayers) {
+var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDplayers + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
