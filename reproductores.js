@@ -167,7 +167,7 @@ function youtube(IDyoutube) {
 }
 
 function moevideo(IDmoevideo) {
-  var output = "<iframe width=\"530\"height=\"340\"src=\"http://moevideo.net/framevideo/" + IDmoevideo + "?width=530&height=340\"frameborder=\"0\"allowfullscreen >";
+  var output = "<iframe width=\"530\" height=\"340\" src=\"http://playreplay.net/framevideo/" + IDmoevideo + "?width=530&height=340\"  frameborder=\"0\" allowfullscreen >";
   output += "</iframe>";
   document.write (output);
 }
