@@ -295,7 +295,7 @@ function moevideo(IDmoevideo) {
 }
 
 function vk(IDvk) {
-  var output = "<iframe title=\"Vkontakte video player Online HD\"width=\"605\"height=\"340\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+  var output = "<iframe title=\"Vkontakte video player Online Premiun HD\"width=\"605\"height=\"340\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
