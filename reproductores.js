@@ -23,7 +23,7 @@ function mail(IDmail) {
 }
 
 function powvideo(IDpowvideo) {
-  var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-530x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-550x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
   output += "</IFRAME>";
   document.write (output);
 }
@@ -41,7 +41,7 @@ function films(IDfilms) {
 }
 
 function tromes(IDtromes) {
-  var output = "<IFRAME SRC=\"http://video4you.me/embed-" + IDtromes + "-530x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://video4you.me/embed-" + IDtromes + "-550x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
   output += "</IFRAME>";
   document.write (output);
 }
