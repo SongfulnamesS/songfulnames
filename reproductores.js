@@ -1,3 +1,15 @@
+function shared(IDshared) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared  + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
+function picasa(IDpicasa) {
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function gamovideo(IDgamovideo) {
   var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-530x340.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"530\" height=\"340\">";
   output += "</iframe>";
@@ -5,7 +17,7 @@ function gamovideo(IDgamovideo) {
 }
 
 function songful(IDsongful) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDsongful + "\" width=\"530\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDsongful + "-hd\" width=\"550\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
