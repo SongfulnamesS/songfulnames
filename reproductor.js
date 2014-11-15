@@ -5,7 +5,7 @@ function premiun(IDpremiun) {
 }
 
 function sayaman(IDsayaman) {
- var output = "<embed class=\"player_conte\" src=\"http://narutofox.tv/athena/plugins/iaplayer.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=https://www.amazon.com/clouddrive/share/" + IDsayaman + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed name=\"flashplayer\" src=\"plugins/iaplayer.swf\" flashvars=\"plugins=plugins/proxy.swf&amp;proxy.link=https://www.amazon.com/clouddrive/share/" + IDsayaman + "&amp;skin=plugins/ia.zip&amp;logo.file=http://i.imgur.com/7VID5wZ.png&amp;logo.position=top-right&amp;logo.link=http://rineanime.tv/&amp;logo.hide=false&amp;logo&amp;proxy.reloader=false\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"605\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
