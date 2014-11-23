@@ -10,6 +10,12 @@ output += "</embed>";
 document.write (output);
 }
 
+function vasito(IDvasito) {
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=" + IDvasito  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"340\" width=\"605\">";
+output += "</center>";
+document.write (output);
+}
+
 function males(IDmales) {
  var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/plus/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/plus/plugins/proxy.swf&amp;proxy.link=" + IDmales + "&amp;skin=http://rineanime.tv/gk/skin/riskin.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"605\" height=\"340\">";
  output += "</embed>";
