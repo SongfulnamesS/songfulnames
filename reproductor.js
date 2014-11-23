@@ -4,6 +4,12 @@ function premiun(IDpremiun) {
  document.write (output);
 }
 
+function pecasa(IDpecasa) {
+ var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/docsgoogle/plugins/proxy.swf&amp;proxy.link=" + IDpecasa + "&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=&amp;logo.position=top-right&amp;logo.link=http://rineanime.tv/&amp;logo.hide=false\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"605\" height=\"340\">";
+ output += "</embed>";
+ document.write (output);
+}
+
 function males(IDmales) {
  var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/plus/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/plus/plugins/proxy.swf&amp;proxy.link=" + IDmales + "&amp;skin=http://rineanime.tv/gk/skin/riskin.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"605\" height=\"340\">";
  output += "</embed>";
