@@ -4,6 +4,12 @@ function female(IDfemale) {
  document.write (output);
 }
 
+function hardsextube(IDhardsextube) {
+ var output = "<iframe width=\"600\" height=\"340\" src=\"//www.hardsextube.com/embed/" + IDhardsextube + "/\" frameborder=\"0\" allowfullscreen>";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function shared(IDshared) {
  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared  + "\" width=\"600\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
