@@ -21,7 +21,7 @@
                 showfriends: "1",
                 friendsrows: "2",
                 size: "large",
-                width: "280",
+                width: "270",
                 theme: "light",
                 backgroundColor: "f5f5f5",
                 borderColor: "a9a9a9",
@@ -38,8 +38,8 @@
 
             var width = 0
             if (params.size == "custom") width = parseInt(params.width) - 12
-            if (params.size == "large") width = 280
-            if (params.size == "medium") width = 216
+            if (params.size == "large") width = 270
+            if (params.size == "medium") width = 225
             if (params.size == "small") width = 162
             width = width + 12
 
