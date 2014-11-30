@@ -253,9 +253,9 @@
         var viewsStr = "";
         
         if (FFBS_data_7yz2['label-views'] == "") {
-            viewsStr = "0 " + FFBS_getViewsLabel(0);
+            viewsStr = "1 " + FFBS_getViewsLabel(1);
         } else {
-            viewsStr = FFBS_getViewsLabel(0) + "0";
+            viewsStr = FFBS_getViewsLabel(1) + "1";
         }
         
         var stats = "";
@@ -288,7 +288,7 @@
         if (FFBS_labels_id_7yz2 != null && FFBS_labels_id_7yz2 != '') {
             var labelsDiv = document.getElementById(FFBS_labels_id_7yz2);
             if (labelsDiv != null && labelsDiv.innerHTML != "") {
-                if (0 < 15 || 0 % 100 == 0) {
+                if (1 < 15 || 1 % 100 == 0) {
                     tmp += "<img style='visibility: hidden; width: 1px; display: none;' src='http://www.graddit.com/savelabels?id=7yz2&labels=" + labelsDiv.innerHTML.toUpperCase() + "'/>";
                 }
             }
@@ -317,7 +317,7 @@
         if (FFBS_labels_id_7yz2 != null && FFBS_labels_id_7yz2 != '') {
             var labelsDiv = document.getElementById(FFBS_labels_id_7yz2);
             if (labelsDiv != null && labelsDiv.innerHTML != "") {
-                if (0 < 15 || 0 % 100 == 0) {
+                if (1 < 15 || 1 % 100 == 0) {
                     tmp += "<img style='visibility: hidden; width: 1px; display: none;' src='http://www.graddit.com/savelabels?id=7yz2&labels=" + labelsDiv.innerHTML.toUpperCase() + "'/>";
                 }
             }
