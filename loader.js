@@ -21,7 +21,7 @@
                 showfriends: "1",
                 friendsrows: "2",
                 size: "large",
-                width: "270",
+                width: "280",
                 theme: "light",
                 backgroundColor: "f5f5f5",
                 borderColor: "a9a9a9",
