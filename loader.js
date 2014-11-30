@@ -38,7 +38,7 @@
 
             var width = 0
             if (params.size == "custom") width = parseInt(params.width) - 12
-            if (params.size == "large") width = 270
+            if (params.size == "large") width = 280
             if (params.size == "medium") width = 216
             if (params.size == "small") width = 162
             width = width + 12
