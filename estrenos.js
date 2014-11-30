@@ -74,7 +74,7 @@ function topanime(json) {
     }
 }
 
-function capanime(json) {
+function gratisme(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
@@ -177,7 +177,7 @@ function anime(json) {
     }
 }
 
-function latinos(json) {
+function demoniosa(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
