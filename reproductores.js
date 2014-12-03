@@ -10,8 +10,8 @@ function hardsextube(IDhardsextube) {
  document.write (output);
 }
 
-function streamin(IDstreamin) {
- var output = "<IFRAME SRC=\"http://streamin.to/embed-" + IDstreamin + "-600x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600HEIGHT=340>;
+function estela(IDestela) {
+ var output = "<IFRAME SRC=\"http://streamin.to/embed-" + IDestela + "-600x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600HEIGHT=340>;
  output += "</IFRAME >";
  document.write (output);
 }
