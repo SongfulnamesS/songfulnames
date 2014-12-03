@@ -10,12 +10,6 @@ function hardsextube(IDhardsextube) {
  document.write (output);
 }
 
-function estela(IDestela) {
- var output = "<IFRAME SRC=\"http://streamin.to/embed-" + IDestela + "-600x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600HEIGHT=340>;
- output += "</IFRAME >";
- document.write (output);
-}
-
 function shared(IDshared) {
  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared  + "\" width=\"600\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
