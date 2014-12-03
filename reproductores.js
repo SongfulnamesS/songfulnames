@@ -11,7 +11,7 @@ function hardsextube(IDhardsextube) {
 }
 
 function streamin(IDstreamin) {
- var output = "<IFRAME SRC=\"http://streamin.to/embed-" + IDstreamin + "-640x360.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600HEIGHT=340>;
+ var output = "<IFRAME SRC=\"http://streamin.to/embed-" + IDstreamin + "-600x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600HEIGHT=340>;
  output += "</IFRAME >";
  document.write (output);
 }
