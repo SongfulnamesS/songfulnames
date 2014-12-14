@@ -41,7 +41,7 @@ function vidspot(IDvidspot) {
 }
 
 function mail(IDmail) {
-  var output = "<iframe src='http://api.video.mail.ru/videos/embed/mail/"+IDusuario+"/_myvideo/"+IDmail+".html' width='530' height='340' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>";
+  var output = "<iframe src='http://videoapi.my.mail.ru/videos/embed/mail/" + IDmail + ".html' width='626' height='367' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
