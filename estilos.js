@@ -651,7 +651,7 @@ var trtd = '<li><a href="' + posturl + '" title="'+ posttitle +'"><span class="i
     }
 }
 
-function showrecentposts1(json) {
+function romancitas(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
