@@ -1,4 +1,4 @@
-﻿imgr = new Array();
+ imgr = new Array();
 imgr[0] = "http://1.bp.blogspot.com/-QjSndGbF0No/T-Nt3HgKsDI/AAAAAAAAG9o/cN6_Oy306rc/s1600/no-video.gif";
 showRandomImg = true;
 aBold = true;
@@ -382,7 +382,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="480" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
+      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="450" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
 
         document.write(trtd);
         j++
