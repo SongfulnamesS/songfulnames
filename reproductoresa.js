@@ -1,77 +1,77 @@
-﻿function premiun(IDpremiun) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ function premiun(IDpremiun) {
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDpremiun + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function rogas(IDrogas) {
-var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://animes21.com/foxvideo/" + IDrogas + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://animes21.com/foxvideo/" + IDrogas + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
 
 function vasito(IDvasito) {
-var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=http://animes21.com/foxvideo/" + IDvasito  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"340\" width=\"605\">";
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=http://animes21.com/foxvideo/" + IDvasito  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"318\" width=\"565\">";
 output += "</center>";
 document.write (output);
 }
 
 function males(IDmales) {
- var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/plus/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/plus/plugins/proxy.swf&amp;proxy.link=" + IDmales + "&amp;skin=http://rineanime.tv/gk/skin/riskin.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"605\" height=\"340\">";
+ var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/plus/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/plus/plugins/proxy.swf&amp;proxy.link=" + IDmales + "&amp;skin=http://rineanime.tv/gk/skin/riskin.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"565\" height=\"318\">";
  output += "</embed>";
  document.write (output);
 }
 
 function female(IDfemale) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://animes21.com/foxvideo/" + IDfemale + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://animes21.com/foxvideo/" + IDfemale + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function google(IDgoogle) {
- var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogle + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogle + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function googless(IDgoogless) {
- var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/plus/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogless + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/riskin.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/plus/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogless + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/riskin.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function gratiss(IDgratiss) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgratiss + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgratiss + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
 
 function playcito(IDplaycito) {
-var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://www.animeid.tv/stream/" + IDplaycito + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
 
 function players(IDplayers) {
-var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDplayers + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDplayers + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
 
 function songfulnames(IDsongfulnames) {
-var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"605\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDsongfulnames + "&image=http://1.bp.blogspot.com/-zJHkoJiXtoM/Uz2y9GhPSfI/AAAAAAAAB2k/lZUtTawuJmI/s1600/naruto+shippuden.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDsongfulnames + "&image=http://1.bp.blogspot.com/-zJHkoJiXtoM/Uz2y9GhPSfI/AAAAAAAAB2k/lZUtTawuJmI/s1600/naruto+shippuden.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
 
 function trome(IDtrome) {
-var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=http://todoanimes.com/" + IDtrome  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"340\" width=\"605\">";
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=http://todoanimes.com/" + IDtrome  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"318\" width=\"565\">";
 output += "</center>";
 document.write (output);
 }
 
 function names(IDnames) {
-var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=" + IDnames  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"340\" width=\"605\">";
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=" + IDnames  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb.swf\" wmode=\"opaque\" height=\"318\" width=\"565\">";
 output += "</center>";
 document.write (output);
 }
@@ -137,7 +137,7 @@ function picasas(IDpicasas) {
 }
 
 function zippyshare(IDzippyshare) {
- var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
@@ -155,7 +155,7 @@ function gamovideo(IDgamovideo) {
 }
 
 function videobam(IDvideobam) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
