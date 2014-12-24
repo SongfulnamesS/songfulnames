@@ -354,4 +354,15 @@ function vidbux(IDvidbux) {
   document.write (output);
 }
 
-function descarga(link,peso){document.write("<center><div id='tensei-descarga'><a href='"+link +"' alt='Descargar este capitulo' target='_blank' > </a> <span>"+peso+"</span></div></center>")}function otrocb(anterior,siguiente){document.write("<center><div style='height:41px;margin-left:5px;margin-top:-55px;'><a class='tip' href='"+anterior +"' style='float: left;' title='Capitulo Anterior'><img src='http://3.bp.blogspot.com/-BabVBo8PBmI/UyzJBKsUPTI/AAAAAAAABvM/DRbp9CxYV-s/s1600/anterior.png' /></a><a class='tip' href='"+siguiente +"' style='float: right;margin-right:11px;' title='Capitulo Siguiente'><img src='http://3.bp.blogspot.com/-mdpsMOMbHAs/UyzJCbLva2I/AAAAAAAABvU/HiRX0pMHt9s/s1600/siguiente.png' /></a></div></center>")}function lista(link){document.write("<a href='"+link +"' id='tensei-lista'>Ver todos los capÃ­tulos</a>")}
+function anterior(enlace) {
+var link = enlace;
+document.write("<div style='display:inline-block; width:252px; height:51px; background:url(http://i.imgur.com/JR0Mkdx.png); float: left;'><a class='btn_nav' href='" +link+ "'>Capitulo Anterior</a></div>");
+}
+function siguiente(enlace) {
+var link = enlace;
+document.write("<div style='display:inline-block; width:251px; height:51px; background:url(http://i.imgur.com/79sWuuv.png); float: left;'><a class='btn_nav_n' href='" +link+ "'>Capitulo Siguiente</a></div>");
+}
+function listacap(enlace) {
+var link = enlace;
+document.write("<a href='" +link+ "'><img src='http://i.imgur.com/sEpu0Qb.jpg' width='77' height='51' title='Volver a la lista de Capitulos' alt='Volver a la lista de Capitulos'></a>");
+}
