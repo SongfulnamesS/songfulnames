@@ -137,219 +137,219 @@ function picasas(IDpicasas) {
 }
 
 function zippyshare(IDzippyshare) {
- var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"100%\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
 
 function picasa(IDpicasa) {
- var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+ var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
  output += "</iframe>";
  document.write (output);
 }
 
 function gamovideo(IDgamovideo) {
-  var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-605x340.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"605\" height=\"340\">";
+  var output = "<iframe src=\"http://gamovideo.com/embed-" + IDgamovideo + "-565x318.html\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" width=\"565\" height=\"318\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function videobam(IDvideobam) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"100%\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function vidspot(IDvidspot) {
-  var output = "<iframe src=\"http://vidspot.net/embed-" + IDvidspot + ".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=605 height=340>";
+  var output = "<iframe src=\"http://vidspot.net/embed-" + IDvidspot + ".html\"frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen='true' width=565 height=318>";
   output += "</iframe>";
   document.write (output);
 }
 
 function viki(IDviki) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-d/viki?v=" + IDviki + "\" width=\"605\" height=\"340\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-d/viki?v=" + IDviki + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function videolog(IDvideolog) {
-  var output = "<iframe width=\"605\" height=\"340\" src=\"http://embed.videolog.tv/v/index.php?id_video=" + IDvideolog + "\" scrolling=\"no\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen>";
+  var output = "<iframe width=\"565\" height=\"318\" src=\"http://embed.videolog.tv/v/index.php?id_video=" + IDvideolog + "\" scrolling=\"no\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function telly(IDtelly) {
-  var output = "<iframe src=\"http://telly.com/embed.php?guid=" + IDtelly + "&autoplay=0\" title=\"Telly video player \" class=\"twitvid-player\" type=\"text/html\" width=\"605\" height=\"340\" frameborder=\"0\">";
+  var output = "<iframe src=\"http://telly.com/embed.php?guid=" + IDtelly + "&autoplay=0\" title=\"Telly video player \" class=\"twitvid-player\" type=\"text/html\" width=\"565\" height=\"318\" frameborder=\"0\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function powvideo(IDpowvideo) {
-  var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-565x318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
 
 function veevr(IDveevr) {
- var output = "<iframe src='http://veevr.com/embed/" + IDveevr + "' width='605' height='340' scrolling='no' frameborder='0'>";
+ var output = "<iframe src='http://veevr.com/embed/" + IDveevr + "' width='565' height='318' scrolling='no' frameborder='0'>";
  output += "</iframe>";
  document.write (output);
 }
 
 function jokeroo(jokeroo) {
-  var output = "<object id=\"player\" width=\"605\" height=\"340\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" >";
+  var output = "<object id=\"player\" width=\"565\" height=\"318\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" >";
   output += "<param name=\"movie\" value=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" >";
   output += "</param>";
   output += "<param name=\"allowFullScreen\" value=\"true\" >";
   output += "</param>";
   output += "<param name=\"allowscriptaccess\" value=\"always\">";
   output += "</param>";
-  output += "<embed src=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"605\" height=\"340\">";
+  output += "<embed src=\"http://www.jokeroo.com/bin/player.swf?" + jokeroo + "\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"565\" height=\"318\">";
   output += "</embed>";
   output += "</object>";
   document.write (output);
 }
 
 function uploadboost(IDuploadboost) {
-  var output = "<iframe title=\"uploadboost video player\" width=\"605\" height=\"340\" src=\"http://www.uploadboost.com/" + IDuploadboost + "&amp;width=605&amp;height=340\" frameborder=\"0\" allowfullscreen>";
+  var output = "<iframe title=\"uploadboost video player\" width=\"565\" height=\"318\" src=\"http://www.uploadboost.com/" + IDuploadboost + "&amp;width=565&amp;height=318\" frameborder=\"0\" allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function mediafire(IDmediafire) {
-  var output = "<center><iframe src=\"http://veranimesonline.com/frans/stream/mediafire.php?id=" + IDmediafire + "\" width=\"605\" height=\"340\" scrolling=\"no\" frameborder=\"0\">";
+  var output = "<center><iframe src=\"http://veranimesonline.com/frans/stream/mediafire.php?id=" + IDmediafire + "\" width=\"565\" height=\"318\" scrolling=\"no\" frameborder=\"0\">";
   output += "</iframe></center>";
   document.write (output);
 }
 
 function tutv(IDtutv) {
- var output = "<iframe width=\"605\" height=\"340\" src=\"http://tu.tv/iframe/" + IDtutv + "/\" frameborder=\"0\" scrolling=\"no\">";
+ var output = "<iframe width=\"565\" height=\"318\" src=\"http://tu.tv/iframe/" + IDtutv + "/\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
 
 function flashx(IDflashx) {
-  var output = "<iframe width=\"605\"height=\"340\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe width=\"565\"height=\"318\"src=\"http://play.flashx.tv/player/embed.php?hash=" + IDflashx + "\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function tumi(IDtumi) {
-  var output = "<IFRAME SRC=\"http://tumi.tv/embed-" + IDtumi + "-605x340.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://tumi.tv/embed-" + IDtumi + "-565x318.html\" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
 
 function videodwn(IDvideodwn) {
-  var output = "<iframe src=\"http://dwn.so/player/embed.php?v=" + IDvideodwn + "&width=605&height=340\"width=\"605\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  var output = "<iframe src=\"http://dwn.so/player/embed.php?v=" + IDvideodwn + "&width=565&height=318\"width=\"565\"height=\"318\"frameborder=\"0\"scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function xvideos(IDxvideos) {
-  var output = "<iframe src=\"http://flashservice.xvideos.com/embedframe/" + IDxvideos + "\"frameborder=0 width=605 height=340 scrolling=no>";
+  var output = "<iframe src=\"http://flashservice.xvideos.com/embedframe/" + IDxvideos + "\"frameborder=0 width=565 height=318 scrolling=no>";
   output += "</iframe>";
   document.write (output);
 }
 
 function netu(IDnetu) {
-  var output = "<iframe src=\"http://hqq.tv/player/embed_player.php?vid=" + IDnetu + "&autoplay=no\" height=\"340\" width=\"605\" style=\"z-index:2147483647;\" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe src=\"http://hqq.tv/player/embed_player.php?vid=" + IDnetu + "&autoplay=no\" height=\"318\" width=\"565\" style=\"z-index:2147483647;\" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function played(IDplayed) {
-  var output = "<IFRAME SRC=\"http://played.to/embed-" + IDplayed + "-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://played.to/embed-" + IDplayed + "-565x318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
 
 function sockshare(IDsockshare) {
-  var output = "<iframe src=\"http://www.sockshare.com/embed/" + IDsockshare + "\"width=\"605\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  var output = "<iframe src=\"http://www.sockshare.com/embed/" + IDsockshare + "\"width=\"565\"height=\"318\"frameborder=\"0\"scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function putlocker(IDputlocker) {
-  var output = "<iframe src=\"http://www.putlocker.com/embed/" + IDputlocker + "\"width=\"605\"height=\"340\"frameborder=\"0\"scrolling=\"no\">";
+  var output = "<iframe src=\"http://www.putlocker.com/embed/" + IDputlocker + "\"width=\"565\"height=\"318\"frameborder=\"0\"scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function novamov(IDnovamov) {
-  var output = "<iframe title=\"novamov video player\"width=\"605\"height=\"340\"src=\"http://embed.novamov.com/embed.php?width=605&amp; height=340&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe title=\"novamov video player\"width=\"565\"height=\"318\"src=\"http://embed.novamov.com/embed.php?width=565&amp; height=318&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function nowvideo(IDnowvideo) {
-  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=605&amp; height=340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"605\"height=\"340\"scanned=\"yes\">";
+  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=565&amp; height=318\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"565\"height=\"318\"scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function allmyvideos(IDallmyvideos) {
-  var output = "<iframe src=\"http://allmyvideos.net/embed-" + IDallmyvideos + "-605x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"605\"height=\"340\">";
+  var output = "<iframe src=\"http://allmyvideos.net/embed-" + IDallmyvideos + "-565x318.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"565\"height=\"318\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function videomega(IDvideomega) {
-  var output = "<iframe width=\"605\"height=\"340\"scrolling=\"no\"frameborder=\"0\"src=\"http://videomega.tv/iframe.php?ref=" + IDvideomega + "&width=605&height=340\">";
+  var output = "<iframe width=\"565\"height=\"318\"scrolling=\"no\"frameborder=\"0\"src=\"http://videomega.tv/iframe.php?ref=" + IDvideomega + "&width=565&height=318\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function vimple(IDvimple) {
-  var output = "<iframe src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"605\" height=\"340\" frameborder=\"0\" style=\"z-index:2147483647;\">";
+  var output = "<iframe src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"565\" height=\"318\" frameborder=\"0\" style=\"z-index:2147483647;\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function ochenta(IDochenta) {
-  var output = "<IFRAME SRC=\"http://180upload.com/embed-" + IDochenta + "-605x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=605 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://180upload.com/embed-" + IDochenta + "-565x318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
 
 function vidbull(IDvidbull) {
-  var output = "<iframe src=\"http://vidbull.com/embed-" + IDvidbull + "-605x340.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"605\"height=\"340\">";
+  var output = "<iframe src=\"http://vidbull.com/embed-" + IDvidbull + "-565x318.html\"frameborder=\"0\"marginwidth=\"0\"marginheight=\"0\"scrolling=\"NO\"width=\"565\"height=\"318\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function youtube(IDyoutube) {
-  var output = "<iframe width=\"605\"height=\"340\"src=\"//www.youtube.com/embed/" + IDyoutube + "\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe width=\"565\"height=\"318\"src=\"//www.youtube.com/embed/" + IDyoutube + "\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function moevideo(IDmoevideo) {
-  var output = "<iframe width=\"605\"height=\"340\"src=\"http://moevideo.net/framevideo/" + IDmoevideo + "?width=605&height=340\"frameborder=\"0\"allowfullscreen >";
+  var output = "<iframe width=\"565\"height=\"318\"src=\"http://moevideo.net/framevideo/" + IDmoevideo + "?width=565&height=318\"frameborder=\"0\"allowfullscreen >";
   output += "</iframe>";
   document.write (output);
 }
 
 function vk(IDvk) {
-  var output = "<iframe title=\"Vkontakte video player Online Premiun HD\"width=\"605\"height=\"340\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+  var output = "<iframe title=\"Vkontakte video player Online Premiun HD\"width=\"565\"height=\"318\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function vidxden(IDvidxden) {
-  var output = "<iframe title=\"vidxden video player\"width=\"605\"height=\"340\"src=\"http://www.vidxden.com/" + IDvidxden + "&amp; width=530&amp; height=340\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe title=\"vidxden video player\"width=\"565\"height=\"318\"src=\"http://www.vidxden.com/" + IDvidxden + "&amp; width=565&amp; height=318\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function rutube(IDrutube) {
-  var output = "<iframe width=\"605\"height=\"340\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
+  var output = "<iframe width=\"565\"height=\"318\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function vidbux(IDvidbux) {
-  var output = "<IFRAME SRC=\"http://www.vidbux.com/embed-" + IDvidbux + "-width-530-height-340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=530 HEIGHT=340>";
+  var output = "<IFRAME SRC=\"http://www.vidbux.com/embed-" + IDvidbux + "-width-565-height-318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
