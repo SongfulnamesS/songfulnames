@@ -169,7 +169,7 @@ function anime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="home_portada_bg"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="home_portada_bg"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/><center><script>compartir()</script></center></a></div>';
         document.write(trtd);
         j++
     }
