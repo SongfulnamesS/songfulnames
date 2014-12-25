@@ -570,7 +570,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="font-size:18px;">' + posttitle + '</strong></a></div>';
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="width: 480px;height: 20px;line-height: 20px;font-size:18px;">' + posttitle + '</strong></a></div>';
 
       document.write(trtd);
         j++
