@@ -384,7 +384,7 @@ function aleatorio(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 17px;padding: 3px;"><a class="big_portada_title" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 17px;padding: 3px;"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
 
         document.write(trtd);
         j++
