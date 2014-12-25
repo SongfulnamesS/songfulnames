@@ -169,7 +169,7 @@ function anime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="home_portada_bg"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="home_portada_bg"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/><div class="botonesi" title="Peliculas Premiun"><iframe allowTransparency='true' expr:src='&quot;http://www.facebook.com/plugins/like.php?href=&quot; + data:post.url+ &quot;&amp;layout=box_count&amp;show_faces=false&amp;width=100&amp;height=63&amp;action=like&amp;font=tahoma&amp;colorscheme=light&quot;' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:100px; height:63px;'/></div></a></div>';
         document.write(trtd);
         j++
     }
