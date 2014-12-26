@@ -16,6 +16,21 @@ output += "</center>";
 document.write (output);
 }
 
+function amazon(IDamazon) {
+var output = "<embed name=\"flashplayer\" src=\"http://nhc.socialbo.info/player.swf\" flashvars=\"plugins=http://nhc.socialbo.info/plugins/proxy.swf&amp;proxy.link=http://www.amazon.com/gp/drive/share?s=" + IDamazon + "&skin=http://fairytailvideos.comyr.com/ia.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"318\" width=\"565\">";
+document.write (output);
+}
+
+function amazon1(IDamazon1) {
+var output = "<embed name=\"flashplayer\" src=\"http://nhc.socialbo.info/player.swf\" flashvars=\"plugins=http://nhc.socialbo.info/plugins/proxy.swf&amp;proxy.link=https://www.amazon.com/clouddrive/share/" + IDamazon1 + "&skin=http://fairytailvideos.comyr.com/ia.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"318\" width=\"565\">";
+document.write (output);
+}
+
+function amazon2(IDamazon2) {
+var output = "<embed name=\"flashplayer\" src=\"http://fairytailvideos.comyr.com/player.swf\" flashvars=\"plugins=http://fairytailvideos.comyr.com/plugins/proxy.swf&amp;proxy.link=http://www.amazon.com/gp/drive/share?s=" + IDamazon2 + "&skin=http://fairytailvideos.comyr.com/ia.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"318\" width=\"565\">";
+document.write (output);
+}
+
 function males(IDmales) {
  var output = "<embed name=\"flashplayer\" src=\"http://rineanime.tv/gk/plus/player.swf\" flashvars=\"plugins=http://rineanime.tv/gk/plus/plugins/proxy.swf&amp;proxy.link=" + IDmales + "&amp;skin=http://rineanime.tv/gk/skin/riskin.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" width=\"565\" height=\"318\">";
  output += "</embed>";
