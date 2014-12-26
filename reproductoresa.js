@@ -21,6 +21,11 @@ var output = "<embed name=\"flashplayer\" src=\"http://nhc.socialbo.info/player.
 document.write (output);
 }
 
+function jknime(IDjknime) {
+var output = "<embed name=\"flashplayer\" src=\"http://fairytailvideos.comyr.com/player.swf\" flashvars=\"plugins=http://fairytailvideos.comyr.com/plugins/proxy.swf&amp;proxy.link=http://jkanime.net/" + IDjknime + "&skin=http://fairytailvideos.comyr.com/ia.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"318\" width=\"565\">";
+document.write (output);
+}
+
 function amazon1(IDamazon1) {
 var output = "<embed name=\"flashplayer\" src=\"http://nhc.socialbo.info/player.swf\" flashvars=\"plugins=http://nhc.socialbo.info/plugins/proxy.swf&amp;proxy.link=https://www.amazon.com/clouddrive/share/" + IDamazon1 + "&skin=http://fairytailvideos.comyr.com/ia.zip\" type=\"application/x-shockwave-flash\" allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"318\" width=\"565\">";
 document.write (output);
