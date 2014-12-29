@@ -362,7 +362,7 @@ function vidbux(IDvidbux) {
 
 function anterior(enlace) {
 var link = enlace;
-  document.write("<div style='display:inline-block; margin-left:20px; width:252px; height:51px; background:url(http://i.imgur.com/JR0Mkdx.png); float: left;'><a class='btn_nav' href='" +link+ "'>Capitulo Anterior</a></div>");
+  document.write("<div style='display:inline-block; margin-left:18px; width:252px; height:51px; background:url(http://i.imgur.com/JR0Mkdx.png); float: left;'><a class='btn_nav' href='" +link+ "'>Capitulo Anterior</a></div>");
 }
 function siguiente(enlace) {
 var link = enlace;
