@@ -514,7 +514,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><img src="' + img[i] + '" width="450" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a>';
+      var trtd = '<div class="nivo-estrenos"><a href="' + posturl + '"><img src="' + img[i] + '" width="450" height="246" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></a></div>';
 
         document.write(trtd);
         j++
