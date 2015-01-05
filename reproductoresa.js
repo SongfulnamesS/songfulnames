@@ -265,7 +265,7 @@ function netu(IDnetu) {
 }
 
 function played(IDplayed) {
-  var output = "<IFRAME class=\"player_conte\" SRC=\"http://played.to/embed-" + IDplayed + "-565x318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
+  var output = "<IFRAME CLASS=\"PLAYER_CONTE\" SRC=\"http://played.to/embed-" + IDplayed + "-565x318.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=565 HEIGHT=318>";
   output += "</IFRAME>";
   document.write (output);
 }
