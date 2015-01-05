@@ -143,7 +143,7 @@ function picasas(IDpicasas) {
 }
 
 function zippyshare(IDzippyshare) {
- var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+ var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
