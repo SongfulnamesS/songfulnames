@@ -161,9 +161,9 @@ function gamovideo(IDgamovideo) {
 }
 
 function videobam(IDvideobam) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
-  output += "</iframe>";
-  document.write (output);
+ var output = "<iframe class=\"player_conte\" frameborder=\"0\" width=\"565\" height=\"318\" scrolling=\"no\" src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\">";
+ output += "</iframe>";
+ document.write (output);
 }
 
 function vidspot(IDvidspot) {
