@@ -118,7 +118,7 @@ function capanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Semanal" alt="Progamacion Semanal"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
+      var trtd = '<li><div class="semanales"><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a></div><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Semanal" alt="Progamacion Semanal"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
         document.write(trtd);
         j++
     }
