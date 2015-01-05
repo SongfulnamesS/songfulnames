@@ -101,7 +101,7 @@ function twitter(IDtwitter) {
 }
 
 function dailymotion(IDdailymotion) {
- var output = "<iframe frameborder=\"0\" width=\"100%\" height=\"100%\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
+ var output = "<iframe frameborder=\"0\" width=\"100%\" height=\"50%\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
  output += "</iframe>";
  document.write (output);
 }
