@@ -1,23 +1,17 @@
-function premiun(IDpremiun) {
- var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;captions.file=&amp;provider=video&amp;file=http://estrenos10.com/foxvideo.php?id=" + IDpremiun + "&amp;captions.file=http://estrenos10.com/strs/1726.srt\"&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmovies.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
- output += "</embed>";
- document.write (output);
-}
-
 function picasas(IDpicasas) {
  var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
 
-function playcito(IDplaycito) {
-var output = "<embed class=\"player_conte\" src=\"http://zet.videosxd.org/swf/player.swf\" width=\"600\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://estrenos10.com/foxvideo.php?id=" + IDplaycito + "&image=http://4.bp.blogspot.com/-rLed4umLsf0/U69Cp6vlFdI/AAAAAAAACaQ/vaxGYSErnc4/s1600/SongfulnamesS.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmovies.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
-output += "</embed>";
-document.write (output);
+function google(IDgoogle) {
+ var output = "<embed allowfullscreen=\"true\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDgoogle + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ output += "</embed>";
+ document.write (output);
 }
 
-function google(IDgoogle) {
- var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf\" width=\"600\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://estrenos10.com/foxvideo.php?id=" + IDgoogle + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmovies.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+function playcito(IDplaycito) {
+ var output = "<embed allowfullscreen=\"true\" src=\"http://zet.videosxd.org/swf/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=http://zet.videosxd.org/plugins/newtube-d.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDplaycito + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
