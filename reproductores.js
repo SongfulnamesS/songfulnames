@@ -5,7 +5,7 @@ function premiun(IDpremiun) {
 }
 
 function picasas(IDpicasas) {
- var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;captions.file=&amp;provider=video&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;captions.file=&amp;provider=video&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
