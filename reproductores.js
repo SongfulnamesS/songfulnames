@@ -5,7 +5,7 @@ function premiun(IDpremiun) {
 }
 
 function picasas(IDpicasas) {
- var output = "<embed allowfullscreen=\"true\" src=\"http://jkanime.net/assets/images/players/jkplayer.swf?plugins=captions&amp;captions.file=&amp;provider=video&amp;file=" + IDpicasas + "\" bgcolor=\"#000\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;captions.file=&amp;provider=video&amp;file=" + IDpicasas + "\" bgcolor=\"#000\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
