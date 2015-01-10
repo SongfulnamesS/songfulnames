@@ -5,7 +5,7 @@ function premiun(IDpremiun) {
 }
 
 function picasas(IDpicasas) {
- var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;captions.file=&amp;provider=video&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ var output = "<embed allowfullscreen=\"true\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulme.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
