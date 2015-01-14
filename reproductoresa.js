@@ -82,6 +82,12 @@ output += "</center>";
 document.write (output);
 }
 
+function copy(IDcopy) {
+var output = "<iframe src=\"http://conforamacatalogo.org/repro-rc/copy?v=" + IDcopy  + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+output += "</iframe>";
+document.write (output);
+}
+
 function amz(IDamz) {
  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/amz?v=" + IDamz  + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
  output += "</iframe>";
