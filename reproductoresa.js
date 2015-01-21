@@ -355,7 +355,7 @@ function vidxden(IDvidxden) {
 }
 
 function rutube(IDrutube) {
-  var output = "<iframe width=\"565\"height=\"318\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
+  var output = "<iframe class=\"player_conte\" width=\"565\"height=\"318\"src=\"//rutube.ru/video/embed/" + IDrutube + "\"frameborder=\"0\"webkitAllowFullScreen mozallowfullscreen allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
