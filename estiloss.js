@@ -515,7 +515,7 @@ function romancitas(json) {
         }
         var daystr = day + ' ' + m + ' ' + y;
         pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
-      var trtd = '<div class="lstsradd"><div class="snplblkn"></div><div class="animedt">' + posttitle + '</div><a class="tooltip" title="'+ posttitle +'" href="' + posturl + '"><div class="lstanmadd-lston"></div><img class="imglstsr" src="' + img[i] + '" width="154" border="0" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="lstsradd"><div class="snplblkn"></div><div class="animedt">' + posttitle + '</div><a class="tooltip" title="'+ posttitle +'" href="' + posturl + '"><div class="lstanmadd-lston"></div><img class="imglstsr" src="' + img[i] + '" width="165" border="0" alt="' + posttitle + '"/></a></div>';
         document.write(trtd);
         j++
     }
