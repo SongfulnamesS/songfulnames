@@ -66,7 +66,7 @@ function topanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-          var trtd = '<div class="loltopanime"><div class="loltopimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="topanimedt"><span>'+numerar+' </span><a href="' + posturl + '">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/like.png" style="vertical-align:middle;float:right;margin-right:-10px;"/></a></div></div>';
+          var trtd = '<div class="loltopanime"><div class="loltopimg"><a title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="166" border="0" alt="' + posttitle + '"/></a></div><div class="topanimedt"><span>'+numerar+' </span><a href="' + posturl + '">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/like.png" style="vertical-align:middle;float:right;margin-right:-30px;"/></a></div></div>';
         document.write(trtd);
         j++
     }
