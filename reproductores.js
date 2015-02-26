@@ -1,5 +1,5 @@
 function picasas(IDpicasas) {
- var output = "<embed allowfullscreen=\"true\" src=\"http://jkanime.net/assets/images/players/jkplayer.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ var output = "<embed allowfullscreen=\"true\" src=\"http://jkanime.net/assets/images/players/jkplayer.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=http://jkanime.net/assets/images/players/jk.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
