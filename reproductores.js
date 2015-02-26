@@ -155,7 +155,7 @@ function novamov(IDnovamov) {
 }
 
 function nowvideo(IDnowvideo) {
-  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=600&amp; height=340\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"600\"height=\"340\"scanned=\"yes\">";
+  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=590&amp; height=330\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"600\"height=\"340\"scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
