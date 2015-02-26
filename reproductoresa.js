@@ -301,7 +301,7 @@ function putlocker(IDputlocker) {
 }
 
 function novamov(IDnovamov) {
-  var output = "<iframe title=\"novamov video player\"width=\"565\"height=\"318\"src=\"http://embed.novamov.com/embed.php?width=565&amp; height=318&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe title=\"novamov video player\"width=\"565\"height=\"318\"src=\"http://embed.novamov.com/embed.php?width=565&amp; height=308&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
