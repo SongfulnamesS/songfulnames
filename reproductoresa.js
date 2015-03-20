@@ -161,7 +161,7 @@ function zippyshar(IDzippyshar) {
 }
 
 function picasas(IDpicasas) {
- var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" class=\"player_conte\" src=\"http://www.vanime.net/plugins/gkplugins_picasaweb/index2.php?url=" + IDpicasas + "&amp;width=605&amp;height=330&amp;tiempo=10\" scrolling=\"no\">";
+ var output = "<iframe style=\"overflow: hidden; border: 0; width: 605px; height: 340px\" class=\"player_conte\" src=\"http://www.vanime.net/plugins/gkplugins_picasaweb/index2.php?url=https://picasaweb.google.com/lh/photo/" + IDpicasas + "&amp;width=605&amp;height=330&amp;tiempo=10\" scrolling=\"no\">";
  output += "</iframe>";
  document.write (output);
 }
