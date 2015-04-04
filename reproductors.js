@@ -105,3 +105,16 @@ function vimeo(IDvimeo) {
   output += "</iframe>";
   document.write (output);
 }
+
+function anterior(enlace) {
+var link = enlace;
+  document.write("<div style='display:inline-block; margin-left:16px; width:252px; height:51px; background:url(http://i.imgur.com/JR0Mkdx.png); float: left;'><a class='btn_nav' href='" +link+ "'>Capitulo Anterior</a></div>");
+}
+function siguiente(enlace) {
+var link = enlace;
+document.write("<div style='display:inline-block; width:251px; height:51px; background:url(http://i.imgur.com/79sWuuv.png); float: left;'><a class='btn_nav_n' href='" +link+ "'>Capitulo Siguiente</a></div>");
+}
+function listacap(enlace) {
+var link = enlace;
+document.write("<a href='" +link+ "'><img src='http://i.imgur.com/sEpu0Qb.jpg' width='77' height='51' title='Volver a la lista de Capitulos' alt='Volver a la lista de Capitulos'></a>");
+}
