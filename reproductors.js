@@ -238,3 +238,8 @@ function listacap(enlace) {
 var link = enlace;
 document.write("<a href='" +link+ "'><img src='http://i.imgur.com/sEpu0Qb.jpg' width='77' height='51' title='Volver a la lista de Capitulos' alt='Volver a la lista de Capitulos'></a>");
 }
+
+function listas(enlace) {
+var link = enlace;
+document.write("<a href='" +link+ "'></a>");
+}
