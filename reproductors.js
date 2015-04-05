@@ -239,7 +239,6 @@ var link = enlace;
 document.write("<a href='" +link+ "'><img src='http://i.imgur.com/sEpu0Qb.jpg' width='77' height='51' title='Volver a la lista de Capitulos' alt='Volver a la lista de Capitulos'></a>");
 }
 
-function listas(enlace) {
-var link = enlace;
-document.write("<a href='" +link+ "'></a>");
+function lista(link) {
+document.write("<a href='"+link +"' id='tensei-lista'>Ver todos los capítulos</a>");
 }
