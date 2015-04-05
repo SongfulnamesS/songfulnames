@@ -240,5 +240,5 @@ document.write("<a href='" +link+ "'><img src='http://i.imgur.com/sEpu0Qb.jpg' w
 }
 
 function lista(link) {
-document.write("<a href='"+link +"' id='tensei-lista'>Ver todos los capítulos</a>");
+document.write("<a href='"+link +"' id='tensei-lista'>Ver Lista De Capítulos</a>");
 }
