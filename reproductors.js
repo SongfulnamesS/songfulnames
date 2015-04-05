@@ -1,35 +1,35 @@
  function viki(IDviki) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/viki?v=" + IDviki + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  var output = "<iframe class=\"player_conte\"  src=\"http://zet.videosxd.org/repro-rc/viki?v=" + IDviki + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function facebook(IDfacebook) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/face?v=" + IDfacebook + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/face?v=" + IDfacebook + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function videobam(IDvideobam) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function twivideo(IDtwivideo) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/twi?v=" + IDtwivideo + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/twi?v=" + IDtwivideo + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function novamov(IDnovamov) {
-  var output = "<iframe title=\"novamov video player\"width=\"640\"height=\"318\"src=\"http://embed.novamov.com/embed.php?width=640&amp; height=318&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
+  var output = "<iframe class=\"player_conte\"  title=\"novamov video player\"width=\"640\"height=\"318\"src=\"http://embed.novamov.com/embed.php?width=640&amp; height=318&amp; v=" + IDnovamov + "&amp; px=1\"frameborder=\"0\"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function nowvideo(IDnowvideo) {
-  var output = "<iframe src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=640&amp; height=318\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"640\"height=\"318\"scanned=\"yes\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://embed.nowvideo.eu/embed.php?v=" + IDnowvideo + "&amp; width=640&amp; height=318\"frameborder=\"0\"scrolling=\"no\"allowtransparency=\"true\"width=\"640\"height=\"318\"scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
@@ -59,49 +59,49 @@ function vervideos(IDvervideos) {
 }
 
 function vk(IDvk) {
-  var output = "<iframe title=\"VK video player Online HD\"width=\"640\"height=\"318\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+  var output = "<iframe class=\"player_conte\" title=\"VK video player Online HD\"width=\"640\"height=\"318\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function picasa(IDpicasa) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/picasa?v=" + IDpicasa + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function dailymotion(IDdailymotion) {
-  var output = "<iframe frameborder=\"0\" width=\"640\" height=\"318\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
+  var output = "<iframe class=\"player_conte\" frameborder=\"0\" width=\"640\" height=\"318\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function zippyshare(IDzippyshare) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/zipy?v=" + IDzippyshare + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function shared(IDshared) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/shared?v=" + IDshared + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function youtube(IDyoutube) {
-  var output = "<iframe width=\"640\" height=\"318\" src=\"//www.youtube.com/embed/" + IDyoutube + "\" frameborder=\"0\" allowfullscreen>";
+  var output = "<iframe class=\"player_conte\" width=\"640\" height=\"318\" src=\"//www.youtube.com/embed/" + IDyoutube + "\" frameborder=\"0\" allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
 
 function vimple(IDvimple) {
-  var output = "<iframe src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"640\" height=\"318\" frameborder=\"0\" style=\"z-index:2147483647;\">";
+  var output = "<iframe class=\"player_conte\" src=\"http://player.vimple.ru/iframe/" + IDvimple + "\" width=\"640\" height=\"318\" frameborder=\"0\" style=\"z-index:2147483647;\">";
   output += "</iframe>";
   document.write (output);
 }
 
 function vimeo(IDvimeo) {
-  var output = "<iframe src=\"//player.vimeo.com/video/" + IDvimeo + "?color=ff0179\" width=\"640\" height=\"318\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen>";
+  var output = "<iframe class=\"player_conte\" src=\"//player.vimeo.com/video/" + IDvimeo + "?color=ff0179\" width=\"640\" height=\"318\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
