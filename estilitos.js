@@ -170,7 +170,7 @@ function capanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="275" height="112" border="0" alt="' + posttitle + '"/></a><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="rated_star"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Doramas" alt="Progamacion Doramas"></div><a class="ver-anime" href=' + posturl + '>ver Dorama</a></li>';
+      var trtd = '<li><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="275" height="112" border="0" alt="' + posttitle + '"/></a><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Doramas" alt="Progamacion Doramas"></div><a class="ver-anime" href=' + posturl + '>ver Dorama</a></li>';
         document.write(trtd);
         j++
     }
