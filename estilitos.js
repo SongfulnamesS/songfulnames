@@ -196,12 +196,30 @@ function capanime(json) {
                 break
             }
         }
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'replies' && entry.link[k].type == 'text/html') {
+                pcm = entry.link[k].title.split(" ")[0];
+                break
+            }
+        }
         if ("content" in entry) {
             var postcontent = entry.content.$t
         } else if ("summary" in entry) {
             var postcontent = entry.summary.$t
         } else var postcontent = "";
-        postdate = entry.published.$t;
+        
+		var re=/<\S[^>]*>/g;
+        var post;
+		var postcortado;
+        postcortado=postcontent.replace(re,"");
+      if(postcortado.length<63){
+        post=postcortado;
+      }else{
+		post=postcortado.substring(0,63);
+		}
+        
+
+		postdate = entry.published.$t;
         if (j > imgr.length - 1) j = 0;
         img[i] = imgr[j];
         s = postcontent;
@@ -222,7 +240,10 @@ function capanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="270" height="112" border="0" alt="' + posttitle + '"/></a><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"></div><a class="ver-anime" href=' + posturl + '></a></li>';
+
+        pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
+        
+var trtd = '<li><a href="' + posturl + '" title="'+ posttitle +'"><span class="img"><img border="0" height="54" src="' + img[i] + '" width="40"></span><div class="play_label_search"><span></span></div><span class="tit">'+ posttitle +'</span><span class="year"><span style="color:#D40C0C;font-weight: bold">'+daystr+'</span></span><span class="info">'+post+'</span></a></li>';   
         document.write(trtd);
         j++
     }
