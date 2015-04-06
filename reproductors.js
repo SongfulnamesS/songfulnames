@@ -23,7 +23,7 @@ function googless(IDgoogless) {
 }
  
  function viki(IDviki) {
-  var output = "<iframe class=\"player_conte\"  src=\"http://conforamacatalogo.org/repro-d/viki?v=" + IDviki + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
+  var output = "<iframe class=\"player_conte\"  src=\"http://www.viki.com/player/" + IDviki + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\" scanned=\"yes\">";
   output += "</iframe>";
   document.write (output);
 }
