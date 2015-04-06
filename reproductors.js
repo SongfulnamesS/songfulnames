@@ -36,7 +36,7 @@ function googless(IDgoogless) {
     <param name=\"allowScriptAccess\" value=\"always\">
     <param name=\"allowFullScreen\" value=\"true\">
     <param name=\"bgcolor\" value=\"#000000\">
-    <param name=\"flashvars\" value=\"config={&quot;plugins&quot;:{&quot;api&quot;:{&quot;autoplay&quot;:true,&quot;autostart&quot;:false,&quot;playlist&quot;:[&quot;" + IDvikis + "&quot;],&quot;uuid&quot;:&quot;dc1b11ed-dc5d-42b1-9bc1-4b0166b36cc5&quot;,&quot;interface_language&quot;:&quot;es&quot;}}}">";
+    <param name=\"flashvars\" value=\"config={&quot;plugins&quot;:{&quot;api&quot;:{&quot;autoplay&quot;:true,&quot;autostart&quot;:false,&quot;playlist&quot;:[&quot;" + IDvikis + "&quot;],&quot;uuid&quot;:&quot;dc1b11ed-dc5d-42b1-9bc1-4b0166b36cc5&quot;,&quot;interface_language&quot;:&quot;es&quot;}}}\">";
   output += "</object>";
   document.write (output);
 }
