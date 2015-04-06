@@ -243,7 +243,7 @@ function capanime(json) {
 
         pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
         
-var trtd = '<li><a href="' + posturl + '" title="'+ posttitle +'"><span class="cuerpo-der"><img border="0" height="54" src="' + img[i] + '" width="40"></span><div class="encima"><span></span></div><span class="titulo-rec">'+ posttitle +'</span><span class="ver-encima"><span style="color:#D40C0C;font-weight: bold">'+daystr+'</span></span><span class="info">'+post+'</span></a></li>';   
+var trtd = '<li><a href="' + posturl + '" title="'+ posttitle +'"><span class="cuerpo-der"><img border="0" height="54" src="' + img[i] + '" width="40"></span><div class="encima"><span></span></div><span class="titulo-rec">'+ posttitle +'</span><span class="ver-encima"><span style="color:#D40C0C;font-weight: bold">'+daystr+'</span></span><span class="ver-anime">Ver Dorama</span></a></li>';   
         document.write(trtd);
         j++
     }
