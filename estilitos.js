@@ -124,6 +124,58 @@ function midoramas(json) {
     }
 }
 
+function midoramas(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        var day = postdate.split("-")[2].substring(0, 2);
+        var m = postdate.split("-")[1];
+        var y = postdate.split("-")[0];
+        for (var u2 = 0; u2 < month.length; u2++) {
+            if (parseInt(m) == month[u2]) {
+                m = month2[u2];
+                break
+            }
+        }
+        var daystr = day + ' ' + m + ' ' + y;
+      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Semanal" alt="Progamacion Semanal"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
+        document.write(trtd);
+        j++
+    }
+}
+
 function capanime(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
@@ -170,59 +222,7 @@ function capanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><div class="encima"><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"><a class="ver-anime" href=' + posturl + '>ver Dorama</a></div></div><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="265" height="112" border="0" alt="' + posttitle + '"/></a></li>';
-        document.write(trtd);
-        j++
-    }
-}
-
-function doramacito(json) {
-    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
-    img = new Array();
-    if (numposts2 <= json.feed.entry.length) {
-        maxpost = numposts2
-    } else {
-        maxpost = json.feed.entry.length
-    }
-    for (var i = 0; i < maxpost; i++) {
-        var entry = json.feed.entry[i];
-        var posttitle = entry.title.$t;
-        var pcm;
-        var posturl;
-        if (i == json.feed.entry.length) break;
-        for (var k = 0; k < entry.link.length; k++) {
-            if (entry.link[k].rel == 'alternate') {
-                posturl = entry.link[k].href;
-                break
-            }
-        }
-        if ("content" in entry) {
-            var postcontent = entry.content.$t
-        } else if ("summary" in entry) {
-            var postcontent = entry.summary.$t
-        } else var postcontent = "";
-        postdate = entry.published.$t;
-        if (j > imgr.length - 1) j = 0;
-        img[i] = imgr[j];
-        s = postcontent;
-        a = s.indexOf("<img");
-        b = s.indexOf("src=\"", a);
-        c = s.indexOf("\"", b + 5);
-        d = s.substr(b + 5, c - b - 5);
-        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
-        var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-        var month2 = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        var day = postdate.split("-")[2].substring(0, 2);
-        var m = postdate.split("-")[1];
-        var y = postdate.split("-")[0];
-        for (var u2 = 0; u2 < month.length; u2++) {
-            if (parseInt(m) == month[u2]) {
-                m = month2[u2];
-                break
-            }
-        }
-        var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><a class="rated_avatar" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="47" height="47" border="0" alt="' + posttitle + '"/></a><a class="rated_title" href="' + posturl + '">' + posttitle + '</a><div class="rated_stars"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Semanales" alt="Progamacion Jkanime"></div><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
+      var trtd = '<li><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="270" height="112" border="0" alt="' + posttitle + '"/></a><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"><span>'+daystr+'</span><img src="http://i.imgur.com/GWOKAA9.png" style="height:11px; vertical-align:middle;" title="Progamacion Semanales" alt="Progamacion Jkanime"></div><a class="ver-anime" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a></li>';
         document.write(trtd);
         j++
     }
