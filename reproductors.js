@@ -28,19 +28,6 @@ function googless(IDgoogless) {
   document.write (output);
 }
 
- function vikis(IDvikis) {
-  var output = "<object type=\"application/x-shockwave-flash\" data=\"http://0.viki.io/a/player-1372438740.swf\" height=\"318\" width=\"640\">
-    <param name=\"movie\" value=\"http://0.viki.io/a/player-1372438740.swf\">
-    <param name=\"quality\" value=\"high\">
-    <param name=\"wmode\" value=\"opaque\">
-    <param name=\"allowScriptAccess\" value=\"always\">
-    <param name=\"allowFullScreen\" value=\"true\">
-    <param name=\"bgcolor\" value=\"#000000\">
-    <param name=\"flashvars\" value=\"config={&quot;plugins&quot;:{&quot;api&quot;:{&quot;autoplay&quot;:true,&quot;autostart&quot;:false,&quot;playlist&quot;:[&quot;" + IDvikis + "&quot;],&quot;uuid&quot;:&quot;dc1b11ed-dc5d-42b1-9bc1-4b0166b36cc5&quot;,&quot;interface_language&quot;:&quot;es&quot;}}}\">";
-  output += "</object>";
-  document.write (output);
-}
-
 function facebook(IDfacebook) {
   var output = "<iframe class=\"player_conte\" src=\"http://zet.videosxd.org/repro-rc/face?v=" + IDfacebook + "\" width=\"640\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
