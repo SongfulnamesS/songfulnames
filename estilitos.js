@@ -170,7 +170,7 @@ function capanime(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<li><div class="encima"><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"><a class="ver-anime" href=' + posturl + '>ver Dorama</a></div></div><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="265" height="112" border="0" alt="' + posttitle + '"/></a></li>';
+      var trtd = '<li><div class="encimastyle="visibility: hidden;"><a class="titulo-rec" href="' + posturl + '">' + posttitle + '</a><div class="ver-encima"><a class="ver-anime" href=' + posturl + '>ver Dorama</a></div></div><a class="cuerpo-der" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="265" height="112" border="0" alt="' + posttitle + '"/></a></li>';
         document.write(trtd);
         j++
     }
