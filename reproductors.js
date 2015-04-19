@@ -59,7 +59,7 @@ function nowvideo(IDnowvideo) {
 }
 
 function dramafever(IDdramafever) {
-  var output = "<iframe class=\"dramafever-iframe\" width=\"640\" height=\"318\" data-guid="\" + IDdramafever + "\" scrolling=\"no\">";
+  var output = "<iframe class=\"dramafever-iframe\" width=\"640\" height=\"318\" data-guid=" + IDdramafever + " scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
