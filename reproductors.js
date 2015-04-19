@@ -59,8 +59,8 @@ function nowvideo(IDnowvideo) {
 }
 
 function dramafever(IDdramafever) {
-  var output = "<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" width=\"640\" height=\"318\" align=\"middle\" id=\"dfPlayerEmbed\"><param name=\"movie\" value=\"http://imgdf-a.akamaihd.net/static/dfPlayer.swf\"/><param name=\"allowfullscreen\" value=\"true\"><param name=\"allowscriptaccess\" value=\"always\"><param name=\"allownetworking\" value=\"all\"><param name=\"flashvars\" value=\"sid=" + IDdramafever + "&url=http://token.dramafever.com&embed=embed\"><!--[if !IE]>--><object type=\"application/x-shockwave-flash\" data=\"http://imgdf-a.akamaihd.net/static/dfPlayer.swf\" width=\"640\" height=\"318\"><param name=\"movie\" value=\"http://imgdf-a.akamaihd.net/static/dfPlayer.swf\"/><param name=\"allowfullscreen\" value=\"true\"><param name=\"allowscriptaccess\" value=\"always\"><param name=\"allownetworking\" value=\"all\"><param name=\"flashvars\" value=\"sid=" + IDdramafever + "&url=http://token.dramafever.com&embed=embed\"><!--<![endif]--><a href=\"http://www.adobe.com/go/getflash\"><img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\"/></a><!--[if !IE]>--></object><!--<![endif]--></object>";
-  output += "</object>";
+  var output = "<iframe class=\"dramafever-iframe\" width=\"640\" height=\"318\" data-guid="\" + IDdramafever + "\" scrolling=\"no\">";
+  output += "</iframe>";
   document.write (output);
 }
 
