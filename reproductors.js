@@ -77,7 +77,7 @@ function vervideos(IDvervideos) {
 }
 
 function vk(IDvk) {
-  var output = "<iframe class=\"player_conte\" title=\"VK video player Online HD\"width=\"640\"height=\"318\"src=\"http://vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
+  var output = "<iframe class=\"player_conte\" title=\"VK video player Online HD\"width=\"640\"height=\"318\"src=\"//vk.com/video_ext.php?oid=" + IDvk + "\"frameborder=\"0\"style=\"margin:0px; \"allowfullscreen>";
   output += "</iframe>";
   document.write (output);
 }
