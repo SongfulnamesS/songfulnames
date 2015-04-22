@@ -125,7 +125,7 @@ function netu(IDnetu) {
 }
 
 function redtube(IDredtube) {
-  var output = "<embed src=\"http://embed.redtube.com/player/?id=" + IDredtube + "&style=redtube\"allowfullscreen=\"true\"AllowScriptAccess=\"always\"flashvars=\"autostart=false\"pluginspage=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\"type=\"application/x-shockwave-flash\"height=\"340\"width=\"600\">";
+  var output = "<iframe src=\"http://embed.redtube.com/?id=" + IDredtube + "&bgcolor=000000\" frameborder=\"0\" width=\"600\" height=\"340\" scrolling=\"no\">";
   output += "</embed>";
   document.write (output);
 }
