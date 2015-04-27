@@ -126,7 +126,7 @@ function netu(IDnetu) {
 
 function redtube(IDredtube) {
   var output = "<iframe src=\"http://embed.redtube.com/?id=" + IDredtube + "&bgcolor=000000\" frameborder=\"0\" width=\"600\" height=\"340\" scrolling=\"no\">";
-  output += "</embed>";
+  output += "</iframe >";
   document.write (output);
 }
 
