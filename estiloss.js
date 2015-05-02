@@ -329,7 +329,7 @@ function ultimosanime(json) {
         d = s.substr(b + 5, c - b - 5);
         if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
        
-      var trtd = '<li><a href="' + posturl + '">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/estreno.gif" style="vertical-align:middle;float:right;margin-right:-30px;"/></a></li>';
+      var trtd = '<li><a href="' + posturl + '">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/estreno.gif" style="vertical-align:middle;float:right;margin-right:0px;"/></a></li>';
         document.write(trtd);
         j++
     }
