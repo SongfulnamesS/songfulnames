@@ -466,7 +466,7 @@ function aleatorio(json) {
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 15px;padding: 3px;"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="home_portada_bg" style="margin: 0 0 4px 16px;padding: 3px;"><a class="big_portada_title" title="'+ posttitle +'" href="' + posturl + '">' + posttitle + '</a><a class="portada_big" title="'+ posttitle +'" href="' + posturl + '"><img src="' + img[i] + '" width="151" height="250" alt="' + posttitle + '"/></a></div>';
 
         document.write(trtd);
         j++
@@ -525,7 +525,7 @@ function romancitas(json) {
         }
         var daystr = day + ' ' + m + ' ' + y;
         pcm = '<a href="' + posturl + '">' + pcm + ' comments</a>';
-      var trtd = '<div class="lstsradd" style="margin: 0 0 4px 17px;padding: 3px;"><div class="snplblkn"></div><div class="animedt">' + posttitle + '</div><a class="tooltip" title="'+ posttitle +'" href="' + posturl + '"><div class="lstanmadd-lston"></div><img class="imglstsr" src="' + img[i] + '" width="165" border="0" alt="' + posttitle + '"/></a></div>';
+      var trtd = '<div class="lstsradd" style="margin: 0 0 4px 16px;padding: 3px;"><div class="snplblkn"></div><div class="animedt">' + posttitle + '</div><a class="tooltip" title="'+ posttitle +'" href="' + posturl + '"><div class="lstanmadd-lston"></div><img class="imglstsr" src="' + img[i] + '" width="165" border="0" alt="' + posttitle + '"/></a></div>';
         document.write(trtd);
         j++
     }
