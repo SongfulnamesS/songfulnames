@@ -100,6 +100,12 @@ output += "</center>";
 document.write (output);
 }
 
+function namesito(IDnamesito) {
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=http://www.animeid.tv/stream/" + IDnamesito  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb2.swf\" wmode=\"opaque\" height=\"318\" width=\"565\">";
+output += "</center>";
+document.write (output);
+}
+
 function copy(IDcopy) {
 var output = "<iframe class=\"player_conte\" src=\"http://conforamacatalogo.org/repro-rc/copy?v=" + IDcopy  + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
 output += "</iframe>";
