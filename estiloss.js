@@ -711,7 +711,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/like.png" style="vertical-align:middle;float:right;margin-right:-30px;"/></strong></a></div>';
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/like.png" style="vertical-align:middle;float:left;margin-right:0px;"/></strong></a></div>';
 
       document.write(trtd);
         j++
