@@ -711,7 +711,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '</strong></a></div>';
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a class="rated_more" href=' + posturl + '><img style="vertical-align:middle;" src="http://i.imgur.com/VBwAaDQ.png" alt="Ver Anime"></a><a href="' + posturl + '"><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '</strong></a></div>';
 
       document.write(trtd);
         j++
