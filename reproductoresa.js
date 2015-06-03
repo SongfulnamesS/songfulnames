@@ -112,6 +112,12 @@ output += "</center>";
 document.write (output);
 }
 
+function dorado(IDdorado) {
+var output = "<iframe src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/644/362/\" width=\"644\" height=\"362\" scrolling=\"no\">";
+output += "</center>";
+document.write (output);
+}
+
 function copy(IDcopy) {
 var output = "<iframe class=\"player_conte\" src=\"http://conforamacatalogo.org/repro-rc/copy?v=" + IDcopy  + "\" width=\"565\" height=\"318\" frameborder=\"0\" scrolling=\"no\">";
 output += "</iframe>";
