@@ -113,7 +113,7 @@ document.write (output);
 }
 
 function dorado(IDdorado) {
-var output = "<iframe src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/644/362/\" width=\"644\" height=\"362\" scrolling=\"no\">";
+var output = "<iframe src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/565/318/\" width=\"565\" height=\"318\" scrolling=\"no\">";
 output += "</center>";
 document.write (output);
 }
