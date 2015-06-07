@@ -112,9 +112,14 @@ output += "</center>";
 document.write (output);
 }
 
+function motion(IDmotion) {
+var output = "<iframe src=\"http://www.faceanime.com/gk/gkplugins_dailymotion/daily.php?id=" + IDmotion  + "\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"565\" height=\"318\" scrolling=\"no\" frameborder=\"0\">";
+document.write (output);
+}
+
 function dorado(IDdorado) {
 var output = "<iframe src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/565/318/\" width=\"565\" height=\"318\" scrolling=\"no\">";
-output += "</center>";
+output += "</iframe >";
 document.write (output);
 }
 
