@@ -114,6 +114,7 @@ document.write (output);
 
 function motion(IDmotion) {
 var output = "<iframe class=\"player_conte\" src=\"http://www.faceanime.com/gk/gkplugins_dailymotion/daily.php?id=" + IDmotion  + "\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"565\" height=\"318\" scrolling=\"no\" frameborder=\"0\">";
+output += "</iframe >";
 document.write (output);
 }
 
