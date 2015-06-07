@@ -113,12 +113,12 @@ document.write (output);
 }
 
 function motion(IDmotion) {
-var output = "<iframe src=\"http://www.faceanime.com/gk/gkplugins_dailymotion/daily.php?id=" + IDmotion  + "\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"565\" height=\"318\" scrolling=\"no\" frameborder=\"0\">";
+var output = "<iframe class=\"player_conte\" src=\"http://www.faceanime.com/gk/gkplugins_dailymotion/daily.php?id=" + IDmotion  + "\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"565\" height=\"318\" scrolling=\"no\" frameborder=\"0\">";
 document.write (output);
 }
 
 function dorado(IDdorado) {
-var output = "<iframe src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/565/318/\" width=\"565\" height=\"318\" scrolling=\"no\">";
+var output = "<iframe class=\"player_conte\" src=\"http://www.daisuki.net/framewatch/embed/embedSaintSeiyaSoulofGold/" + IDdorado  + "/565/318/\" width=\"565\" height=\"318\" scrolling=\"no\">";
 output += "</iframe >";
 document.write (output);
 }
