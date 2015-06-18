@@ -11,7 +11,7 @@ document.write (output);
 }
 
 function songfulnames(IDsongfulnames) {
-var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDsongfulnames + "&image=http://3.bp.blogspot.com/-UE5g6p2IRl8/VQcLD63-SbI/AAAAAAAADmk/hgYl59hGoDg/s1600/names.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmex.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+var output = "<embed class=\"player_conte\" src=\"https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDsongfulnames + "&image=http://3.bp.blogspot.com/-UE5g6p2IRl8/VQcLD63-SbI/AAAAAAAADmk/hgYl59hGoDg/s1600/names.jpg&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=https://plantillas-lex.googlecode.com/svn/trunk/reproductores/jkanime/ia.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmoviex.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
 output += "</embed>";
 document.write (output);
 }
@@ -23,7 +23,7 @@ function google(IDgoogle) {
 }
 
 function googless(IDgoogless) {
- var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/plus/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogless + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/skin.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmex.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
+ var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/plus/player.swf\" width=\"565\" height=\"318\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=http://todoanimes.com/" + IDgoogless + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/skin.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmoviex.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
  document.write (output);
 }
@@ -70,8 +70,8 @@ function gamovideo(IDgamovideo) {
   document.write (output);
 }
 
-function songful(IDsongful) {
-  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDsongful + "-hd\" width=\"600\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
+function videobam(IDvideobam) {
+  var output = "<iframe src=\"http://zet.videosxd.org/repro-rc/bam?v=" + IDvideobam + "-hd\" width=\"600\" height=\"340\" frameborder=\"0\" scrolling=\"no\">";
   output += "</iframe>";
   document.write (output);
 }
