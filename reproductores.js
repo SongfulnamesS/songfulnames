@@ -154,6 +154,12 @@ function netu(IDnetu) {
   document.write (output);
 }
 
+function dailymotion(IDdailymotion) {
+ var output = "<iframe class=\"player_conte\" frameborder=\"0\" width=\"565\" height=\"318\" scrolling=\"no\" src=\"http://www.dailymotion.com/embed/video/" + IDdailymotion + "\">";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function redtube(IDredtube) {
   var output = "<iframe src=\"http://embed.redtube.com/?id=" + IDredtube + "&bgcolor=000000\" frameborder=\"0\" width=\"600\" height=\"340\" scrolling=\"no\">";
   output += "</iframe>";
