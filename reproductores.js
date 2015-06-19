@@ -89,7 +89,7 @@ function mail(IDmail) {
 }
 
 function powvideo(IDpowvideo) {
-  var output = "<IFRAME class=\"player_conte\" SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-600x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600 HEIGHT=340>";
+  var output = "<IFRAME CLASS=\"PLAYER_CONTE\" SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-600x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600 HEIGHT=340>";
   output += "</IFRAME>";
   document.write (output);
 }
