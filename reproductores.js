@@ -269,7 +269,7 @@ function vidbux(IDvidbux) {
 }
 
 function trailer(IDtrailer) {
-  var output = "<div id=\'youtube\'><htitle>Trailer de la Pelicula</htitle><iframe width=\"290\"height=\"200\"src=\"http://www.youtube.com/embed/" + IDtrailer + "\"frameborder=\"0\"allowfullscreen></iframe>";
+  var output = "<div id=\'youtube\'><h20>Trailer de la Pelicula</h20><iframe width=\"290\"height=\"200\"src=\"http://www.youtube.com/embed/" + IDtrailer + "\"frameborder=\"0\"allowfullscreen></iframe>";
   output += "</div>";
   document.write (output);
 }
