@@ -35,9 +35,9 @@ function picasas(IDpicasas) {
 }
 
 function elites(IDelites) {
- var output = "<embed class=\"player_conte\" allowfullscreen=\"true\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb2.swf?plugins=captions&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDelites + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
- output += "</embed>";
- document.write (output);
+var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=" + IDelites  + "#mp4&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb2.swf\" wmode=\"opaque\" height=\"340\" width=\"600\">";
+output += "</center>";
+document.write (output);
 }
 
 function googlest(IDgooglest) {
