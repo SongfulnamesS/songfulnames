@@ -16,12 +16,6 @@ output += "</embed>";
 document.write (output);
 }
 
-function names(IDnames) {
-var output = "<center><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" flashvars=\"file=" + IDnames  + "&amp;logo=&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png &amp;backcolor=000000&amp;frontcolor=ffffff&amp;lightcolor=#0082ff&amp;controlbar.position=over\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb2.swf\" wmode=\"opaque\" height=\"318\" width=\"565\">";
-output += "</center>";
-document.write (output);
-}
-
 function google(IDgoogle) {
  var output = "<embed class=\"player_conte\" src=\"http://rineanime.tv/gk/docsgoogle/player.swf\" width=\"600\" height=\"340\" allowscriptaccess=\"always\" allowfullscreen=\"true\" wmode=\"opaque\" flashvars=\"file=" + IDgoogle + "&image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;skin=http://rineanime.tv/gk/skin/rineanime.zip&amp;logo.file=http://1.bp.blogspot.com/-mPAQ7kykKj0/U1FjhNTfpkI/AAAAAAAACC8/gVULCYIde9s/s1600/logoeskina.png&amp;logo.position=top-right&amp;logo.link=http://songfulmoviex.blogspot.com/&amp;logo.hide=false&amp;logo.timeout=5&amp;logo.out=0.4&amp;abouttext=Songful AnimeID anime de calidad&amp;aboutlink=#&amp;plugins=backstroke-1,timeslidertooltipplugin-1\">";
  output += "</embed>";
@@ -36,6 +30,12 @@ function googless(IDgoogless) {
 
 function picasas(IDpicasas) {
  var output = "<embed class=\"player_conte\" allowfullscreen=\"true\" src=\"http://jkanime.net/assets/images/players/jkplayer.swf?plugins=captions&amp;image=http://2.bp.blogspot.com/-X_Gvjx0n5_o/U68-u_BKQMI/AAAAAAAACZw/QzQ1FsluS8s/s1600/LOGO.png&amp;skin=http://jkanime.net/assets/images/players/jk.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDpicasas + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
+ output += "</embed>";
+ document.write (output);
+}
+
+function elites(IDelites) {
+ var output = "<embed class=\"player_conte\" allowfullscreen=\"true\" src=\"http://bligoo.com/media/users/9/450577/files/63725/player_fb2.swf?plugins=captions&amp;image=https://lh5.googleusercontent.com/-cfqj3KHaS8o/UYw04peKvOI/AAAAAAAABoc/a7Bfjpdz0yE/w630-h370-no/naruto-anime-online.png&amp;skin=http://jkanime.net/assets/images/players/jk.zip&amp;captions.file=&amp;provider=video&amp;stretching=exactfit&amp;controlbar.position=over&amp;file=" + IDelites + "\" type=\"application/x-shockwave-flash\" width=\"600\" height=\"340\">";
  output += "</embed>";
  document.write (output);
 }
