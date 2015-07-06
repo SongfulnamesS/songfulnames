@@ -101,8 +101,8 @@ function mail(IDmail) {
 }
 
 function powvideo(IDpowvideo) {
-  var output = "<IFRAME CLASS=\"PLAYER_CONTE\" SRC=\"http://powvideo.net/embed-"+IDpowvideo+"-600x340.html\"FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=600 HEIGHT=340>";
-  output += "</IFRAME>";
+  var output = "<iframe class=\"player_conte\" src=\"http://powvideo.net/embed-" + IDpowvideo + "-600x340.html\" scrolling=\"no\" frameborder=\"0\" width=\"600\" height=\"340\" allowfullscreen=\"true\">";
+  output += "</iframe>";
   document.write (output);
 }
 
