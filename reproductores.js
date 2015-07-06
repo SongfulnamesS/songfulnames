@@ -53,7 +53,7 @@ function playcitos(IDplaycitos) {
 }
 
 function youporn(IDyouporn) {
- var output = "<iframe src=http://www.youporn.com/embed/" + IDyouporn + "/ frameborder=0 height='340' width='600' scrolling=no name='yp_embed_video'>";
+ var output = "<iframe class=\"player_conte\" src=http://www.youporn.com/embed/" + IDyouporn + "/ frameborder=0 height='340' width='600' scrolling=no name='yp_embed_video'>";
  output += "</iframe>";
  document.write (output);
 }
