@@ -52,6 +52,12 @@ function playcitos(IDplaycitos) {
  document.write (output);
 }
 
+function youporn(IDyouporn) {
+ var output = "<iframe src=http://www.youporn.com/embed/" + IDyouporn + "/ frameborder=0 height='340' width='600' scrolling=no name='yp_embed_video'>";
+ output += "</iframe>";
+ document.write (output);
+}
+
 function hardsextube(IDhardsextube) {
  var output = "<iframe class=\"player_conte\" width=\"600\" height=\"340\" src=\"//www.hardsextube.com/embed/" + IDhardsextube + "/\" frameborder=\"0\" allowfullscreen>";
  output += "</iframe>";
