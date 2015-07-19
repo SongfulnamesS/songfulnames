@@ -449,6 +449,47 @@ function ultimosanimes(json) {
     }
 }
 
+function estrenar(json) {
+    j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+    img = new Array();
+    if (numposts2 <= json.feed.entry.length) {
+        maxpost = numposts2
+    } else {
+        maxpost = json.feed.entry.length
+    }
+    for (var i = 0; i < maxpost; i++) {
+        var entry = json.feed.entry[i];
+        var posttitle = entry.title.$t;
+        var pcm;
+        var posturl;
+        if (i == json.feed.entry.length) break;
+        for (var k = 0; k < entry.link.length; k++) {
+            if (entry.link[k].rel == 'alternate') {
+                posturl = entry.link[k].href;
+                break
+            }
+        }
+        if ("content" in entry) {
+            var postcontent = entry.content.$t
+        } else if ("summary" in entry) {
+            var postcontent = entry.summary.$t
+        } else var postcontent = "";
+        postdate = entry.published.$t;
+        if (j > imgr.length - 1) j = 0;
+        img[i] = imgr[j];
+        s = postcontent;
+        a = s.indexOf("<img");
+        b = s.indexOf("src=\"", a);
+        c = s.indexOf("\"", b + 5);
+        d = s.substr(b + 5, c - b - 5);
+        if ((a != -1) && (b != -1) && (c != -1) && (d != "")) img[i] = d;
+       
+      var trtd = '<li><a href="' + posturl + '">' + posttitle + '<img src="http://cdn.jkanime.net/assets/images/porestrenar.gif" style="vertical-align:middle;float:right;margin-right:0px;"/></a></li>';
+        document.write(trtd);
+        j++
+    }
+}
+
 function ultimosanimess(json) {
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
