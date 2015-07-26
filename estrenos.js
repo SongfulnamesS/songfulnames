@@ -279,7 +279,7 @@ function ultimosanime(json) {
 
 
 function slider(json) {
-document.write("<div class='featured' id='slider'>");
+document.write("<div class='nivoSlider' id='slider'>");
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
@@ -386,7 +386,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<div class="div.caption" id="div.caption span'+ numero +'"><a href="' + posturl + '"><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '</strong></a></div>';
+      var trtd = '<div class="nivo-html-caption" id="htmlcaption-'+ numero +'"><a href="' + posturl + '"><strong style="width: 469px;height: 18px;line-height: 18px;font-size:18px;">' + posttitle + '</strong></a></div>';
 
       document.write(trtd);
         j++
