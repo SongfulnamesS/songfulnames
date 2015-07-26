@@ -279,7 +279,7 @@ function ultimosanime(json) {
 
 
 function slider(json) {
-document.write("<div class='nivoSlider' id='slider'>");
+document.write("<div class='featured' id='slider'>");
     j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
     img = new Array();
     if (numposts2 <= json.feed.entry.length) {
