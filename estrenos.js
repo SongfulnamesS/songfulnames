@@ -330,7 +330,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><div class="estreno-slider"><img src="' + img[i] + '" width="550" height="315" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></div></a>';
+      var trtd = '<a href="' + posturl + '">'+posttitle+'<div class="estreno-slider"><img src="' + img[i] + '" width="550" height="315" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></div></a>';
 
         document.write(trtd);
         j++
