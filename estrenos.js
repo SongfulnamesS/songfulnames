@@ -330,7 +330,7 @@ numero = 0;
             }
         }
         var daystr = day + ' ' + m + ' ' + y;
-      var trtd = '<a href="' + posturl + '"><div class="estreno-slider"><img src="' + img[i] + '" width="530" height="315" alt="' + posttitle + '" title="#htmlcaption-'+ numero +'"/></div></a><span class="veranime"><a title="Ver '+ posttitle +'" href="' + posturl + '">Ver Ova</a></span>';
+      var trtd = '<a href="' + posturl + '"><div class="estreno-slider"><img src="' + img[i] + '" width="530" height="315" alt="' + posttitle + '" title="#htmlcaption-'+ posttitle +'"/></div></a><span class="veranime"><a title="Ver '+ posttitle +'" href="' + posturl + '">Ver Ova</a></span>';
 
         document.write(trtd);
         j++
